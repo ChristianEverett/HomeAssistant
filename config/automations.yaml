@@ -1,0 +1,190 @@
+- alias: SunSet
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-00:45:00"
+    #platform: state
+    #entity_id: binary_sensor.aeotec_motion_1
+  action:
+    - service: switch.turn_on
+      entity_id: switch.switch
+    - service: light.turn_on
+      entity_id: 
+        - light.level_2
+        - light.level_3
+    
+- alias: SunRise
+  trigger:
+    platform: sun
+    event: sunrise
+    offset: "-00:45:00"
+  action:
+    - service: switch.turn_off
+      entity_id: switch.switch
+    - service: light.turn_off
+      entity_id: 
+        - light.level_2
+        - light.level_3
+
+- alias: Lock Room
+  trigger:
+    - platform: template
+      value_template: "{{ states.device_tracker.admin_pixel.state != 'home' }}"
+  action:
+    - service: switch.turn_on
+      entity_id: switch.d
+
+- alias: Unlock Room
+  trigger:
+    - platform: template
+      value_template: "{{ states.device_tracker.admin_pixel.state == 'home' }}"
+  action:
+    - service: switch.turn_off
+      entity_id: switch.d
+
+- alias: User Status notification
+  trigger:
+     - platform: state
+       entity_id: device_tracker.admin_pixel, device_tracker.admin_blackberry, device_tracker.iphone
+       #to: "Cool"
+  action:
+    service: notify.chromeNotifier
+    data_template:
+      message: "{{ state.attributes.friendly_name }}"
+    data:
+      data:
+        tag: 'notification-about-sensor'
+
+- alias: Thermostat Change notification
+  trigger:
+     - platform: state
+       entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+       to: "Cool"
+  action:
+    service: notify.chromeNotifier
+    data_template:
+      message: "Thermostat Set to: {{ states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.state }}"
+    data:
+      data:
+        tag: 'notification-about-sensor'
+
+- alias: ThermostatCheckOutSideTemp
+  trigger:
+    - platform: state
+      entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+  condition:
+    condition: template
+    value_template: "{{ states('sensor.pws_temp_f') < states('climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes.temperature') }}"
+  action:
+    - service: climate.set_operation_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        operation_mode: "Off"
+    
+- alias: Disable Thermostat
+  trigger:
+    platform: state
+    entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+  action:
+    - service: climate.set_operation_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        operation_mode: "Off"
+
+- alias: Thermostat Mode Fan
+  trigger:
+    platform: state
+    entity_id: input_boolean.thermostat_fan
+    to: 'on'
+  action:
+    - service: climate.set_fan_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        fan_mode: "On Low"
+    - service: climate.set_operation_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        operation_mode: "Off"
+    - service: input_boolean.turn_off
+      entity_id: 
+        - input_boolean.thermostat_cool
+        - input_boolean.thermostat_heat
+      
+- alias: Thermostat Mode Cool
+  trigger:
+    - platform: state
+      entity_id: input_boolean.thermostat_cool
+      to: 'on'
+    - platform: state
+      entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+      to: "Cool"
+  action:
+    - service: climate.set_operation_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        operation_mode: "Cool"
+    - service: climate.set_fan_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        fan_mode: "Auto Low"
+    - service: input_boolean.turn_off
+      entity_id: 
+        - input_boolean.thermostat_fan
+        - input_boolean.thermostat_heat
+    - service: input_boolean.turn_on
+      entity_id: 
+        - input_boolean.thermostat_cool
+        
+- alias: Thermostat Mode Heat
+  trigger:
+    - platform: state
+      entity_id: input_boolean.thermostat_heat
+      to: 'on'
+    - platform: state
+      entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1
+      to: "Heat"
+  action:
+    - service: climate.set_operation_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1
+        operation_mode: "Heat"
+    - service: climate.set_fan_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        fan_mode: "Auto Low"
+    - service: input_boolean.turn_off
+      entity_id: 
+        - input_boolean.thermostat_cool
+        - input_boolean.thermostat_fan
+    - service: input_boolean.turn_on
+      entity_id: 
+        - input_boolean.thermostat_heat
+        
+- alias: Thermostat Mode Off
+  trigger:
+    - platform: state
+      entity_id: input_boolean.thermostat_cool
+      to: 'off'
+    - platform: state
+      entity_id: input_boolean.thermostat_heat
+      to: 'off'
+    - platform: state
+      entity_id: input_boolean.thermostat_fan
+      to: 'off'
+    - platform: state
+      entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1
+      to: "Off"
+  action:
+    - service: climate.set_operation_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1
+        operation_mode: "Off"
+    - service: climate.set_fan_mode
+      data:
+        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        fan_mode: "Auto Low"
+    - service: input_boolean.turn_off
+      entity_id: 
+        - input_boolean.thermostat_cool
+        - input_boolean.thermostat_heat
+        - input_boolean.thermostat_fan

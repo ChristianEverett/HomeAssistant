@@ -1,0 +1,9 @@
+thermostat_fan:
+  name: 'Fan'
+  initial: off
+thermostat_cool:
+  name: 'Cool'
+  initial: off
+thermostat_heat:
+  name: 'Heat'
+  initial: off

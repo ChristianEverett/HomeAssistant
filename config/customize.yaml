@@ -1,0 +1,44 @@
+sensor.pws_temp_f:
+    friendly_name: Temperature
+sensor.pws_relative_humidity:
+    friendly_name: Humidity
+
+sensor.linear_gctbz48_battery_powered_zwave_thermostat_temperature:
+    friendly_name: Temperature
+climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1:
+    friendly_name: Heat
+climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1:
+    friendly_name: AC
+    
+light.level:
+    friendly_name: Hallway
+    state_card_mode: break-slider-toggle
+    stretch_slider: true
+    
+light.level_2:
+    friendly_name: Main
+    state_card_mode: break-slider-toggle
+    stretch_slider: true
+    
+light.level_3:
+    friendly_name: Desk
+    state_card_mode: break-slider-toggle
+    stretch_slider: true
+    
+light.sengled_e11g13_031e1173_1:
+    friendly_name: Sengled
+    state_card_mode: break-slider-toggle
+    stretch_slider: true
+
+switch.switch:
+    friendly_name: BathRoom Light
+    
+lock.august:
+    friendly_name: Front Door Lock
+   
+cover.garage_door_opener: 
+    icon: mdi:car
+
+group.all_automations:
+    hidden: false
+    friendly_name: 'Automations'

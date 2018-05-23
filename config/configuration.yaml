@@ -1,0 +1,145 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 42.76
+  longitude: -71.46
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 0
+  # metric for Metric, imperial for Imperial
+  unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/New_York
+  # Customization file
+  customize: !include customize.yaml
+  
+  customize_glob: 
+    '*.*': 
+        custom_ui_state_card: state-card-custom-ui
+        show_last_changed: true
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+hassio:
+
+http:
+  # Secrets are defined in the file secrets.yaml
+  # api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # base_url: example.duckdns.org:8123
+  base_url: 
+    #- https://1343.duckdns.org
+    - https://hasystem.duckdns.org
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+customizer:
+  custom_ui: local
+
+# Track the sun
+sun:
+  
+# Text to speech
+tts:
+  - platform: google
+
+alexa:
+
+# Cloud
+#cloud:
+
+zwave:
+  usb_path: /dev/ttyUSB0
+  network_key: "0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A, 0xAA, 0x0C, 0x0D, 0x0E, 0x0F, 0x10"
+
+zha:
+  usb_path: /dev/ttyUSB1
+  database_path: zigbee.db
+
+notify:
+  - name: chromeNotifier
+    platform: html5
+    gcm_api_key: 'AAAArNllrYI:APA91bEH3ZRU0fXGpgHalGKOvCq8wAVpxP_CbnR2t-RjaOimzkPWNtf9Dfy-3wtbc_yPaBI_dq_m10iPTHiLZu3xzNlz7w7B-yzU378dxXGxErCwwyisNBuSmNUcYFT6XllBKxvz_n_C'
+    gcm_sender_id: '742381694338'
+
+device_tracker:
+  - platform: bluetooth_tracker
+  - platform: nmap_tracker
+    hosts: 
+        - 10.0.0.19
+        - 10.0.0.27
+        - 10.0.0.26
+  - platform: owntracks
+
+cover:
+  - platform: myq
+    username: christian.everett1@gmail.com
+    password: mickey888!
+    type: liftmaster
+
+google_assistant:
+  project_id: hasystem-2152f
+  client_id: skejgnfeidsafwfe
+  access_token: gmeskllsbnkedageaweafgerebase
+  #agent_user_id: [a string to identify user]
+  #api_key: [a Homegraph API Key generated for the Google Actions project]
+  exposed_domains:
+    - switch
+    - light
+    - group
+    - climate
+    - sensor
+  entity_config:
+    switch.d:
+      name: Custom Name for Google Assistant
+      aliases:
+        - bright lights
+        - entry lights
+#    light.living_room:
+#      expose: false
+#      room: living room
+
+mqtt:
+  broker: core-mosquitto
+  client_id: hassio
+  username: admin
+  password: 6037706823
+
+zone: !include zones.yaml
+switch: !include switches.yaml
+input_boolean: !include input_booleans.yaml
+sensor: !include sensors.yaml
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml

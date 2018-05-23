@@ -1,0 +1,96 @@
+#default_view:
+#    view: yes
+#    name: First Floor
+#    entities: 
+#        - group.users
+#        - group.weatherSensor
+#        - group.doors
+#        - group.lights
+#        - group.thermostat
+
+weatherSensor:
+    name: Weather
+    entities:
+        - sensor.pws_temp_f
+        - sensor.pws_relative_humidity
+
+users:
+    name: Users
+    entities:
+        - device_tracker.admin_pixel
+        - device_tracker.admin_blackberry
+        - device_tracker.iphone
+        
+aeotecSensor:
+    name: Sensors
+    entities:
+        - sensor.aeotec_temperature_1
+        - sensor.aeotec_luminance_1
+        - sensor.aeotec_humidity_1
+        - sensor.aeotec_vibration_1
+        - binary_sensor.aeotec_motion_1
+        
+doors:
+    name: Doors
+    entities:
+        - sensor.front_door_status
+        - lock.august
+        - sensor.basementdoor
+        - cover.garage_door_opener
+
+thermostat:
+    name: Thermostat
+    entities:
+        - sensor.linear_gctbz48_battery_powered_zwave_thermostat_temperature
+        - climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        - climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1
+        
+lights:
+    name: Lights
+    entities:
+        - switch.a
+        - switch.b
+        - switch.c
+        - light.level
+
+bedroomSwitches:
+    name: Control
+    entities:
+        - light.level_3
+        - light.level_2
+        - switch.switch
+        - switch.d
+        - light.sengled_e11g13_031e1173_1
+
+harmony:
+    name: Harmony
+    entities:
+        - sensor.harmony_status
+        - remote.harmony_hub
+
+################## Tabs ##################
+firstFloor:
+    view: yes
+    name: First Floor
+    entities:
+        - group.users
+        - group.weatherSensor
+        - group.doors
+        - group.lights
+        - group.thermostat
+
+bedRoom:
+    view: yes
+    name: BedRoom
+    entities:
+        - group.users
+        - group.owntrack
+        - group.weatherSensor
+        - group.aeotecSensor
+        - group.doors
+        - group.thermostat
+        - group.lights
+        - group.bedroomSwitches
+        - group.harmony
+        - group.all_automations
+        - group.all_scripts

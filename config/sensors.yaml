@@ -1,0 +1,66 @@
+- platform: systemmonitor
+  resources:
+    - type: processor_use
+    - type: memory_use_percent
+    - type: disk_use_percent
+
+# Weather prediction
+- platform: wunderground
+  api_key: 82e8174d5a015bf7
+  monitored_conditions:
+    - temp_f
+    - relative_humidity
+#    - platform: time_date
+#      display_options:
+#        - 'time'
+#        - 'date'
+#        - 'time_date'
+
+# 0 - unassigned
+# 1 - Manual Lock Operation
+# 2 - Manual Unlock Operation
+# 3 - RF Lock Operation
+# 4 - RF Unlock Operation
+# 5 - Keypad Lock Operation
+# 6 - Keypad Unlock Operation
+# 7 - unassigned
+# 8 - unassigned
+# 9 - Auto Lock Locked Operation
+# 10 - unassigned
+# 11 - Lock Jammed
+- platform: template
+  sensors:
+    front_door_status:
+      friendly_name: 'Front Door'
+      value_template: >-
+        {% if is_state('sensor.lock_access_control', '9') %}
+          Auto Locked
+        {% elif is_state('sensor.lock_access_control', '1') %}
+          Manually Locked
+        {% elif is_state('sensor.lock_access_control', '2') %}
+          Manually Unlocked
+        {% elif is_state('sensor.lock_access_control', '4') %}
+          Unlocked
+        {% elif is_state('sensor.lock_access_control', '11') %}
+          Lock Jammed
+        {% else %}
+          Locked
+        {% endif %}
+
+- platform: template
+  sensors:
+    basementdoor:
+      value_template: '{% if is_state("sensor.hank_hkzwdws01_doorwindow_sensor_access_control_4", "23") %}Closed{% else %}Open{% endif %}'
+      friendly_name: 'Basement Door'
+    basementdooractive:
+      value_template: '{% if is_state("sensor.hank_hkzwdws01_doorwindow_sensor_burglar_4", "0") %}Active{% else %}Inactive{% endif %}'
+      friendly_name: 'Basement Door Active'
+      
+- platform: template
+  sensors:
+    harmony_status:
+      value_template: '{{ states.remote.harmony_hub.attributes.current_activity }}'
+      friendly_name: 'Harmony Status'
+    bedroom:
+      value_template: '{{ states.remote.bedroom.attributes.current_activity }}'
+      friendly_name: 'bedroom'

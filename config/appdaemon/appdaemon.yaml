@@ -1,0 +1,18 @@
+secrets: /config/secrets.yaml
+log:
+  logfile: STDOUT
+  errorfile: STDERR
+appdaemon:
+  disable_apps: 1
+  threads: 10
+  app_dir: /config/appdaemon/apps
+  plugins:
+    HASS:
+      type: hass
+      ha_url: http://hassio/homeassistant
+      ha_key: dafc2e293c364ceca1083dc35ea37356
+hadashboard:
+  dash_url: http://hasystem.duckdns.org:5050
+  dash_dir: /config/appdaemon/dashboards
+  dash_ssl_certificate: /ssl/fullchain.pem
+  dash_ssl_key: /ssl/privkey.pem
