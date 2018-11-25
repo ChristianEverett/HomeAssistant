@@ -1,0 +1,53 @@
+evening_mode:
+  sequence:
+    - service: switch.turn_on
+      entity_id: 
+        - switch.zooz_zen15_power_switch_zwaveswitch
+        - switch.b
+    - service: light.turn_on
+      entity_id: 
+        - light.level_2
+        - light.level_3
+        - switch.b
+
+night_mode:
+  sequence:
+    - service: switch.turn_off
+      entity_id: 
+        - switch.zooz_zen15_power_switch_zwaveswitch
+#        - switch.b
+    - service: light.turn_off
+      entity_id: 
+        - light.level_2
+        - light.level_3
+
+day_mode:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.zooz_zen15_power_switch_zwaveswitch
+      
+leave:
+  sequence:
+    - service: switch.turn_off
+      entity_id: 
+        - switch.zooz_zen15_power_switch_zwaveswitch
+        - switch.a
+        - switch.d
+
+return:
+  sequence:
+    - service: switch.turn_on
+      entity_id: 
+        - switch.zooz_zen15_power_switch_zwaveswitch
+        - switch.a
+
+thermostat_mode_setter:
+  sequence:
+    - service: input_boolean.turn_off
+      data_template:
+        entity_id: 
+          - '{{ off_one }}'
+          - '{{ off_two }}'
+    - service: input_boolean.turn_on
+      data_template:
+        entity_id: '{{ on_one }}'

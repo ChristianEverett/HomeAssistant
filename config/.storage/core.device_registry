@@ -1,0 +1,152 @@
+{
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "d9ad5d09241b432ea24d0b3152cbcf28",
+                "identifiers": [
+                    [
+                        "zwave",
+                        25
+                    ]
+                ],
+                "manufacturer": "Aeotec",
+                "model": "ZW100 MultiSensor 6",
+                "name": "Aeotec ZW100 MultiSensor 6",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "ac5801be383a4db899129dbd553088ae",
+                "identifiers": [
+                    [
+                        "zwave",
+                        26
+                    ]
+                ],
+                "manufacturer": "Linear",
+                "model": "GC-TBZ48 Battery Powered Z-Wave Thermostat",
+                "name": "Linear GC-TBZ48 Battery Powered Z-Wave Thermostat",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "cb020ff99dd14476a5d6e6ecf58014bc",
+                "identifiers": [
+                    [
+                        "zwave",
+                        27
+                    ]
+                ],
+                "manufacturer": "GE",
+                "model": "14294 In-Wall Smart Dimmer",
+                "name": "GE 14294 In-Wall Smart Dimmer",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "3e4ca0a88c1646f99e4cec6dd0c99769",
+                "identifiers": [
+                    [
+                        "zwave",
+                        28
+                    ]
+                ],
+                "manufacturer": "Hank",
+                "model": "HKZW-DWS01 Door/Window Sensor",
+                "name": "Hank HKZW-DWS01 Door/Window Sensor",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "435fd08a2ed249789a146f55ecef8ec2",
+                "identifiers": [
+                    [
+                        "zwave",
+                        29
+                    ]
+                ],
+                "manufacturer": "Zooz",
+                "model": "ZEN15 Power Switch",
+                "name": "Zooz ZEN15 Power Switch",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "44c22966a3284908a69392196d87947f",
+                "identifiers": [
+                    [
+                        "zwave",
+                        30
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGRGBWM441 RGBW Controller",
+                "name": "FIBARO System FGRGBWM441 RGBW Controller",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "879bb41ad85e4986a4d32c27447cec9b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        31
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGRGBWM441 RGBW Controller",
+                "name": "FIBARO System FGRGBWM441 RGBW Controller",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "5c34e7603b2a461fab26168b4ca1515d",
+                "identifiers": [
+                    [
+                        "zwave",
+                        34
+                    ]
+                ],
+                "manufacturer": "Unknown: id=033f",
+                "model": "Unknown: type=0001, id=0001",
+                "name": "Lock: id=033f Lock: type=0001, id=0001",
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

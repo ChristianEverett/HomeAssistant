@@ -154,10 +154,6 @@ binary_sensor.hank_hkzwdws01_doorwindow_sensor_sensor_4:
   name:
   platform: zwave
   unique_id: 28-72057594512670720
-switch.switch:
-  name:
-  platform: zwave
-  unique_id: 29-72057594529267712
 sensor.unknown:
   name:
   platform: zwave
@@ -322,3 +318,11 @@ light.sengled_e11g13_031e1173_1:
   name:
   platform: zha
   unique_id: b0:ce:18:14:03:1e:11:73-1
+media_player.bedroom_speaker_2:
+  name:
+  platform: cast
+  unique_id: 3fbadb7a-384d-1a9a-a235-4870d704de86
+switch.zooz_zen15_power_switch_zwaveswitch:
+  name:
+  platform: zwave
+  unique_id: 29-72057594529267712

@@ -1,12 +1,19 @@
-#default_view:
-#    view: yes
-#    name: First Floor
-#    entities: 
-#        - group.users
-#        - group.weatherSensor
-#        - group.doors
-#        - group.lights
-#        - group.thermostat
+default_view:
+    view: yes
+    name: Control
+    entities: 
+        - group.users
+        - group.owntrack
+        - group.weatherSensor
+        - group.aeotecSensor
+        - group.doors
+        - group.thermostat
+        #- group.lights
+        - group.switches
+        - group.harmony
+        - group.systemMonitor
+        - group.all_automations
+        - group.all_scripts
 
 weatherSensor:
     name: Weather
@@ -36,7 +43,7 @@ doors:
         - sensor.front_door_status
         - lock.august
         - sensor.basementdoor
-        - cover.garage_door_opener
+ #       - cover.garage_door_opener
 
 thermostat:
     name: Thermostat
@@ -48,19 +55,31 @@ thermostat:
 lights:
     name: Lights
     entities:
-        - switch.a
-        - switch.b
-        - switch.c
-        - light.level
+#         - switch.a
+#         - switch.b
+#         - switch.c
+#         - switch.d
+#         - light.level
+        - light.sengled_e11n1ea_00031820_1    
+        - light.sengled_e11n1ea_0004dd70_1    
+        - light.sengled_e11n1ea_0004e0e5_1    
+        - light.sengled_e11n1ea_0004e66d_1
 
-bedroomSwitches:
+switches:
     name: Control
     entities:
         - light.level_3
         - light.level_2
-        - switch.switch
-        - switch.d
-        - light.sengled_e11g13_031e1173_1
+        - switch.zooz_zen15_power_switch_zwaveswitch
+        - light.dc4f22e35c77_100017
+        - light.dc4f22e3e07c_100019
+ #       - switch.a
+ #       - switch.b
+ #       - switch.c
+ #       - switch.d
+ #       - light.level
+ #       - light.sengled_e11g13_031e1173_1
+ #       - light.sengled_e11n1ea_0004dd70_1
 
 harmony:
     name: Harmony
@@ -69,28 +88,29 @@ harmony:
         - remote.harmony_hub
 
 ################## Tabs ##################
-firstFloor:
-    view: yes
-    name: First Floor
-    entities:
-        - group.users
-        - group.weatherSensor
-        - group.doors
-        - group.lights
-        - group.thermostat
+#firstFloor:
+#    view: yes
+#    name: First Floor
+#    entities:
+#        - group.users
+#        - group.weatherSensor
+#        - group.doors
+#        - group.lights
+#        - group.thermostat
 
-bedRoom:
-    view: yes
-    name: BedRoom
-    entities:
-        - group.users
-        - group.owntrack
-        - group.weatherSensor
-        - group.aeotecSensor
-        - group.doors
-        - group.thermostat
-        - group.lights
-        - group.bedroomSwitches
-        - group.harmony
-        - group.all_automations
-        - group.all_scripts
+#control:
+#    view: yes
+#    name: Control
+#    entities:
+#        - group.users
+#        - group.owntrack
+#        - group.weatherSensor
+#        - group.aeotecSensor
+#        - group.doors
+#        - group.thermostat
+#        - group.lights
+#        - group.bedroomSwitches
+#        - group.harmony
+#        - group.systemMonitor
+#        - group.all_automations
+#        - group.all_scripts

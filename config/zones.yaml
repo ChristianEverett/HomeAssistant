@@ -1,10 +1,20 @@
 - name: Home
-  latitude: 42.7385056
-  longitude: -71.5097739
+  latitude: 42.717506
+  longitude: -71.445378
   radius: 200
-
+  
 - name: Work
   latitude: 42.6153765
   longitude: -71.3248187
   radius: 250
   icon: mdi:briefcase-outline
+
+- name: Pauls House
+  latitude: 42.3219458124
+  longitude: -71.8235101097
+  radius: 200
+
+- name: Portsmouth
+  latitude: 43.0265043
+  longitude: -70.7874034
+  radius: 200

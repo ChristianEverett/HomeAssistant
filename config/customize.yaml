@@ -30,8 +30,18 @@ light.sengled_e11g13_031e1173_1:
     state_card_mode: break-slider-toggle
     stretch_slider: true
 
-switch.switch:
-    friendly_name: BathRoom Light
+light.dc4f22e35c77_100017:
+    friendly_name: TV Light
+    state_card_mode: break-slider-toggle
+    stretch_slider: true
+
+light.dc4f22e3e07c_100019:
+    friendly_name: Kitchen Light
+    state_card_mode: break-slider-toggle
+    stretch_slider: true
+
+switch.zooz_zen15_power_switch_zwaveswitch:
+    friendly_name: Kitchen Lights
     
 lock.august:
     friendly_name: Front Door Lock
@@ -42,3 +52,7 @@ cover.garage_door_opener:
 group.all_automations:
     hidden: false
     friendly_name: 'Automations'
+
+group.all_scripts:
+    hidden: false
+    friendly_name: 'Scripts'

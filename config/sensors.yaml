@@ -2,7 +2,7 @@
   resources:
     - type: processor_use
     - type: memory_use_percent
-    - type: disk_use_percent
+    - type: disk_free
 
 # Weather prediction
 - platform: wunderground
@@ -64,3 +64,11 @@
     bedroom:
       value_template: '{{ states.remote.bedroom.attributes.current_activity }}'
       friendly_name: 'bedroom'
+
+- platform: template
+  sensors:
+    thermostat_current_temperature:
+      value_template: "{{ states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes.current_temperature }}"
+    thermostat_setpoint:
+      value_template: "{{ states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes.temperature }}"
+        #states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes['media_title'] 
