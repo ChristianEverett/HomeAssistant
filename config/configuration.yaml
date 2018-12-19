@@ -12,14 +12,32 @@ homeassistant:
   time_zone: America/New_York
   # Customization file
   customize: !include customize.yaml
-  
+
   customize_glob: 
-    '*.*': 
+    'switch.*': 
         custom_ui_state_card: state-card-custom-ui
-        show_last_changed: true
+        show_last_changed: true  
+    'light.*': 
+        custom_ui_state_card: state-card-custom-ui
+        show_last_changed: true  
+    'sensor.*': 
+        custom_ui_state_card: state-card-custom-ui
+        show_last_changed: true  
+    'climate.*': 
+        custom_ui_state_card: state-card-custom-ui
+        show_last_changed: true  
+    'binary_sensor.*': 
+        custom_ui_state_card: state-card-custom-ui
+        show_last_changed: true  
+    'device_tracker.*': 
+        custom_ui_state_card: state-card-custom-ui
+        show_last_changed: true  
 
 # Show links to resources in log and frontend
 #introduction:
+
+customizer:
+  custom_ui: local
 
 # Enables the frontend
 frontend:
@@ -29,18 +47,16 @@ config:
 
 hassio:
 
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 http:
   # Secrets are defined in the file secrets.yaml
   # api_password: !secret http_password
   api_password: 6037706823
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   # base_url: example.duckdns.org:8123
-  base_url: 
-    #- https://1343.duckdns.org
-    - https://hasystem.duckdns.org
+  base_url: https://hasystem.duckdns.org
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
-
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -52,7 +68,7 @@ updater:
   # include_used_components: true
 
 # Discover some devices automatically
-discovery:
+#discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -66,26 +82,25 @@ logbook:
 # Enables a map showing the location of tracked devices
 map:
 
-customizer:
-  custom_ui: local
-
 # Track the sun
 sun:
-  
+
+weather:
+  - platform: darksky
+    api_key: 3c8fc2be66db12807a3bca6a9436e676
+
 # Text to speech
 tts:
   - platform: google
 
-alexa:
+# Cloud
+#cloud:
 
 #https://hasystem.duckdns.org/api/services/switch/turn_off?api_password=6037706823
 #body:
 #{"entity_id":"switch.d"}
 ifttt:
   key: oxAaEBKcr8I4gOEeT4ypzDYoO0ZpKPT0AnVExtaIaBJ
-
-# Cloud
-#cloud:
 
 zwave:
   usb_path: /dev/ttyUSB0
@@ -95,11 +110,11 @@ zha:
   usb_path: /dev/ttyUSB1
   database_path: zigbee.db
 
-notify:
-  - name: chromeNotifier
-    platform: html5
-    gcm_api_key: 'AAAArNllrYI:APA91bEH3ZRU0fXGpgHalGKOvCq8wAVpxP_CbnR2t-RjaOimzkPWNtf9Dfy-3wtbc_yPaBI_dq_m10iPTHiLZu3xzNlz7w7B-yzU378dxXGxErCwwyisNBuSmNUcYFT6XllBKxvz_n_C'
-    gcm_sender_id: '742381694338'
+# notify:
+#   - name: chromeNotifier
+#     platform: html5
+#     gcm_api_key: 'AAAArNllrYI:APA91bEH3ZRU0fXGpgHalGKOvCq8wAVpxP_CbnR2t-RjaOimzkPWNtf9Dfy-3wtbc_yPaBI_dq_m10iPTHiLZu3xzNlz7w7B-yzU378dxXGxErCwwyisNBuSmNUcYFT6XllBKxvz_n_C'
+#     gcm_sender_id: '742381694338'
 
 device_tracker:
   - platform: bluetooth_tracker
@@ -110,34 +125,11 @@ device_tracker:
     #    - 10.0.0.26
   - platform: owntracks
 
-cover:
-  - platform: myq
-    username: christian.everett1@gmail.com
-    password: mickey888!
-    type: liftmaster
-
-google_assistant:
-  project_id: hasystem-2152f
-  client_id: skejgnfeidsafwfe
-  access_token: gmeskllsbnkedageaweafgerebase
-  #agent_user_id: [a string to identify user]
-  #api_key: [a Homegraph API Key generated for the Google Actions project]
-  exposed_domains:
-    - switch
-    - light
-    - group
-    - climate
-    - sensor
-    - script
-  entity_config:
-    switch.d:
-      name: Custom Name for Google Assistant
-      aliases:
-        - bright lights
-        - entry lights
-#    light.living_room:
-#      expose: false
-#      room: living room
+# cover:
+#   - platform: myq
+#     username: christian.everett1@gmail.com
+#     password: mickey888!
+#     type: liftmaster
 
 mqtt:
   broker: core-mosquitto
@@ -148,6 +140,38 @@ mqtt:
 light:
   - platform: flux_led
     automatic_add: True
+
+google_assistant:
+  project_id: hasystem-2152f
+  #agent_user_id: [a string to identify user]
+  #api_key: [a Homegraph API Key generated for the Google Actions project]
+  #expose_by_default: false
+  exposed_domains:
+  #   - switch
+  #   - light
+  #   - climate
+  #   - sensor
+     - script
+  entity_config:
+    sensor.thermostat_temperature:
+      name: Inside Temperature
+      aliases: Inside Temperature
+      expose: true
+    climate.thermostat_heating:
+      expose: true
+    light.desk:
+      expose: true
+    light.main:
+      expose: true
+    light.sengled_1:
+      expose: true
+    # switch.zwaveswitch_1:
+    #   name: Custom Name for Google Assistant
+    #   aliases:
+    #     - test lights
+#    light.living_room:
+#      expose: false
+#      room: living room
 
 zone: !include zones.yaml
 switch: !include switches.yaml

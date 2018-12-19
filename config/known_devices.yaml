@@ -1,136 +1,10 @@
-pixel_bt:
-  hide_if_away: false
-  icon:
-  mac: BT_40:4E:36:53:87:B2
-  name: Pixel 603-770-6823 (Bluetooth)
-  picture:
-  track: true
 
-iphone:
-  hide_if_away: false
-  icon:
-  mac: 6C:96:CF:D0:10:65
-  name: IPhone
-  picture:
-  track: true
 
-iphone_bt:
+pr_bt_2ee3:
   hide_if_away: false
   icon:
-  mac: BT_6C:96:CF:D0:10:66
-  name: IPhone 603-867-2001
-  picture:
-  track: true
-
-blackberry_bt:
-  hide_if_away: false
-  icon:
-  mac: BT_CC:FD:17:F0:83:8A
-  name: BlackBerry 603-770-9757 (Bluetooth)
-  picture:
-  track: true
-  
-nancys_iphone:
-  hide_if_away: false
-  icon:
-  mac: BT_CC:44:63:38:26:E2
-  name: Nancy's iPhone
-  picture:
-  track: true
-
-plt_bbtpro:
-  hide_if_away: false
-  icon:
-  mac: BT_E4:22:A5:18:25:1E
-  name: PLT BBTPRO
-  picture:
-  track: true
-
-us8yqt2h2:
-  hide_if_away: false
-  icon:
-  mac: BT_14:AB:C5:C3:6E:59
-  name: US-8YQT2H2
-  picture:
-  track: true
-
-iphone_2:
-  hide_if_away: false
-  icon:
-  mac: BT_88:66:A5:EF:0D:70
-  name: iPhone
-  picture:
-  track: true
-
-admin_pixel:
-  hide_if_away: false
-  icon:
-  mac: AC:37:43:DE:F9:10
-  name: Pixel
-  picture:
-  track: true
-
-admin_blackberry:
-  hide_if_away: false
-  icon:
-  mac: CC:FD:17:F0:83:8C
-  name: Backberry
-  picture:
-  track: true
-
-taotronics_ttba09:
-  hide_if_away: false
-  icon:
-  mac: BT_00:6A:8E:17:10:64
-  name: TaoTronics TT-BA09
-  picture:
-  track: true
-
-parrot_ck3100:
-  hide_if_away: false
-  icon:
-  mac: BT_A0:14:3D:9D:CF:36
-  name: Parrot CK3100
-  picture:
-  track: true
-
-8878733cd4a3:
-  hide_if_away: false
-  icon:
-  mac: 88:78:73:3C:D4:A3
-  name: 8878733cd4a3
-  picture:
-  track: true
-
-bwb17av004:
-  hide_if_away: false
-  icon:
-  mac: BT_E4:33:1E:05:90:CF
-  name: BWB17AV004
-  picture:
-  track: true
-
-lews_kindle:
-  hide_if_away: false
-  icon:
-  mac: BT_00:BB:3A:66:B0:1F
-  name: Lew's Kindle
-  picture:
-  track: true
-
-tv_samsung_6_series_43:
-  hide_if_away: false
-  icon:
-  mac: BT_C0:97:27:0D:2E:F9
-  name: '[TV] Samsung 6 Series (43)'
-  picture:
-  track: true
-
-lge_dtv_bcm20702a1:
-  hide_if_away: false
-  icon:
-  mac: BT_C8:29:2A:FF:D4:E9
-  name: LGE DTV BCM20702A1
+  mac: BT_00:1F:FF:6F:73:18
+  name: PR BT 2EE3
   picture:
   track: true
 
@@ -142,6 +16,22 @@ tv_bed_uhd:
   picture:
   track: true
 
+lge_dtv_bcm20702a1:
+  hide_if_away: false
+  icon:
+  mac: BT_C8:29:2A:FF:D4:E9
+  name: LGE DTV BCM20702A1
+  picture:
+  track: true
+
+tv_samsung_6_series_43:
+  hide_if_away: false
+  icon:
+  mac: BT_C0:97:27:0D:2E:F9
+  name: '[TV] Samsung 6 Series (43)'
+  picture:
+  track: true
+
 dtvbluetooth:
   hide_if_away: false
   icon:
@@ -150,74 +40,42 @@ dtvbluetooth:
   picture:
   track: true
 
-iphone_3:
+pixel_3:
   hide_if_away: false
   icon:
-  mac: BT_9C:E3:3F:36:37:2B
-  name: iPhone
+  mac: BT_3C:28:6D:29:3A:2A
+  name: Pixel 3
   picture:
   track: true
 
-harmony_keyboard:
+admin_pixel:
   hide_if_away: false
   icon:
-  mac: BT_C8:DB:26:05:72:F1
-  name: Harmony Keyboard
+  mac: 3C:28:6D:29:3A:2B
+  name: Pixel 3
   picture:
   track: true
 
-deborahs_ipad:
+admin_blackberry:
   hide_if_away: false
   icon:
-  mac: BT_E8:B2:AC:34:DB:B7
-  name: Deborah’s iPad
+  mac:
+  name: BlackBerry
   picture:
   track: true
 
-iphone_4:
+pixel:
   hide_if_away: false
   icon:
-  mac: BT_B8:41:A4:EB:C3:8B
-  name: iPhone
+  mac: BT_40:4E:36:53:87:B2
+  name: Pixel
   picture:
   track: true
 
-redmi:
+z557bl:
   hide_if_away: false
   icon:
-  mac: BT_F4:F5:DB:A9:10:A4
-  name: Redmi
-  picture:
-  track: true
-
-pr_bt_2ee3:
-  hide_if_away: false
-  icon:
-  mac: BT_00:1F:FF:6F:73:18
-  name: PR BT 2EE3
-  picture:
-  track: true
-
-johnlaptop:
-  hide_if_away: false
-  icon:
-  mac: BT_7C:67:A2:1A:EA:1D
-  name: JOHN-LAPTOP
-  picture:
-  track: true
-
-p200:
-  hide_if_away: false
-  icon:
-  mac: BT_22:22:42:43:76:10
-  name: p200
-  picture:
-  track: true
-
-samsung_galaxy_s7:
-  hide_if_away: false
-  icon:
-  mac: BT_C0:17:4D:AE:41:C0
-  name: Samsung Galaxy S7
+  mac: BT_F8:A3:4F:9C:31:46
+  name: Z557BL
   picture:
   track: true

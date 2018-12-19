@@ -1,15 +1,18 @@
-- platform: systemmonitor
-  resources:
-    - type: processor_use
-    - type: memory_use_percent
-    - type: disk_free
+# Weather prediction
+- platform: yr
+
+# - platform: systemmonitor
+#   resources:
+#     - type: processor_use
+#     - type: memory_use_percent
+#     - type: disk_free
 
 # Weather prediction
-- platform: wunderground
-  api_key: 82e8174d5a015bf7
-  monitored_conditions:
-    - temp_f
-    - relative_humidity
+# - platform: wunderground
+#   api_key: 82e8174d5a015bf7
+#   monitored_conditions:
+#     - temp_f
+#     - relative_humidity
 #    - platform: time_date
 #      display_options:
 #        - 'time'
@@ -33,15 +36,15 @@
     front_door_status:
       friendly_name: 'Front Door'
       value_template: >-
-        {% if is_state('sensor.lock_access_control', '9') %}
+        {% if is_state('sensor.august_lock_status', '9') %}
           Auto Locked
-        {% elif is_state('sensor.lock_access_control', '1') %}
+        {% elif is_state('sensor.august_lock_status', '1') %}
           Manually Locked
-        {% elif is_state('sensor.lock_access_control', '2') %}
+        {% elif is_state('sensor.august_lock_status', '2') %}
           Manually Unlocked
-        {% elif is_state('sensor.lock_access_control', '4') %}
+        {% elif is_state('sensor.august_lock_status', '4') %}
           Unlocked
-        {% elif is_state('sensor.lock_access_control', '11') %}
+        {% elif is_state('sensor.august_lock_status', '11') %}
           Lock Jammed
         {% else %}
           Locked
@@ -68,7 +71,7 @@
 - platform: template
   sensors:
     thermostat_current_temperature:
-      value_template: "{{ states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes.current_temperature }}"
+      value_template: "{{ states.climate.thermostat_cooling.attributes.current_temperature }}"
     thermostat_setpoint:
-      value_template: "{{ states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes.temperature }}"
+      value_template: "{{ states.climate.thermostat_cooling.attributes.temperature }}"
         #states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes['media_title'] 

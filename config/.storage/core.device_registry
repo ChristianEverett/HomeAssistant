@@ -3,11 +3,11 @@
         "devices": [
             {
                 "config_entries": [
-                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                    "accbb7b88116410cb129041d0d76b166"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "d9ad5d09241b432ea24d0b3152cbcf28",
+                "id": "ce6c51e93e31440785ed8b06cd8eef23",
                 "identifiers": [
                     [
                         "zwave",
@@ -21,11 +21,11 @@
             },
             {
                 "config_entries": [
-                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                    "accbb7b88116410cb129041d0d76b166"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "ac5801be383a4db899129dbd553088ae",
+                "id": "740ad68ba3474e61a8f6565768e1d538",
                 "identifiers": [
                     [
                         "zwave",
@@ -39,11 +39,11 @@
             },
             {
                 "config_entries": [
-                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                    "accbb7b88116410cb129041d0d76b166"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "cb020ff99dd14476a5d6e6ecf58014bc",
+                "id": "0545d787cd34428aad53b131405bf906",
                 "identifiers": [
                     [
                         "zwave",
@@ -57,11 +57,11 @@
             },
             {
                 "config_entries": [
-                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                    "accbb7b88116410cb129041d0d76b166"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "3e4ca0a88c1646f99e4cec6dd0c99769",
+                "id": "af592b0c1b344cff8851487e6c2021f6",
                 "identifiers": [
                     [
                         "zwave",
@@ -75,11 +75,11 @@
             },
             {
                 "config_entries": [
-                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                    "accbb7b88116410cb129041d0d76b166"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "435fd08a2ed249789a146f55ecef8ec2",
+                "id": "90e3db5b4cb549c8b19446b7274a60cb",
                 "identifiers": [
                     [
                         "zwave",
@@ -93,11 +93,11 @@
             },
             {
                 "config_entries": [
-                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                    "accbb7b88116410cb129041d0d76b166"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "44c22966a3284908a69392196d87947f",
+                "id": "d6c4d8347be146b2a2089af654e0b9f1",
                 "identifiers": [
                     [
                         "zwave",
@@ -111,11 +111,11 @@
             },
             {
                 "config_entries": [
-                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                    "accbb7b88116410cb129041d0d76b166"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "879bb41ad85e4986a4d32c27447cec9b",
+                "id": "6c8606f061e24a68af6bcf0cc4b39792",
                 "identifiers": [
                     [
                         "zwave",
@@ -129,11 +129,11 @@
             },
             {
                 "config_entries": [
-                    "91c5fae4e54841dd9e59f3a5073c41cd"
+                    "accbb7b88116410cb129041d0d76b166"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "5c34e7603b2a461fab26168b4ca1515d",
+                "id": "a9cbec03365e4dc2a0188ea0199ad860",
                 "identifiers": [
                     [
                         "zwave",
@@ -143,6 +143,24 @@
                 "manufacturer": "Unknown: id=033f",
                 "model": "Unknown: type=0001, id=0001",
                 "name": "Lock: id=033f Lock: type=0001, id=0001",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "accbb7b88116410cb129041d0d76b166"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "3ccd44c29c6048b2b134ce571ee40968",
+                "identifiers": [
+                    [
+                        "zwave",
+                        35
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGRGBWM441 RGBW Controller",
+                "name": "FIBARO System FGRGBWM441 RGBW Controller",
                 "sw_version": null
             }
         ]

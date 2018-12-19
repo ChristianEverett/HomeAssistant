@@ -2,35 +2,40 @@ evening_mode:
   sequence:
     - service: switch.turn_on
       entity_id: 
-        - switch.zooz_zen15_power_switch_zwaveswitch
+        - switch.zwaveswitch_1
         - switch.b
     - service: light.turn_on
       entity_id: 
-        - light.level_2
-        - light.level_3
+        - light.desk
+        - light.main
         - switch.b
+    # - service: light.turn_on
+    #   entity_id:
+    #     - light.sengled_7
+    #     - light.sengled_8
+    #   data:
+    #       brightness: 40
 
 night_mode:
   sequence:
     - service: switch.turn_off
       entity_id: 
-        - switch.zooz_zen15_power_switch_zwaveswitch
-#        - switch.b
+        - switch.zwaveswitch_1
     - service: light.turn_off
       entity_id: 
-        - light.level_2
-        - light.level_3
+        - light.desk
+        - light.main
 
 day_mode:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.zooz_zen15_power_switch_zwaveswitch
+      entity_id: switch.zwaveswitch_1
       
 leave:
   sequence:
     - service: switch.turn_off
       entity_id: 
-        - switch.zooz_zen15_power_switch_zwaveswitch
+        - switch.zwaveswitch_1
         - switch.a
         - switch.d
 
@@ -38,16 +43,27 @@ return:
   sequence:
     - service: switch.turn_on
       entity_id: 
-        - switch.zooz_zen15_power_switch_zwaveswitch
+        - switch.zwaveswitch_1
         - switch.a
 
-thermostat_mode_setter:
-  sequence:
-    - service: input_boolean.turn_off
-      data_template:
-        entity_id: 
-          - '{{ off_one }}'
-          - '{{ off_two }}'
-    - service: input_boolean.turn_on
-      data_template:
-        entity_id: '{{ on_one }}'
+# green_purple:
+#   sequence:
+#     - service: light.turn_on
+#       entity_id: group.group1Lights
+#       data:
+#           color_name: purple
+#     - service: light.turn_on
+#       entity_id: group.group2Lights
+#       data:
+#           color_name: green
+
+# thermostat_mode_setter:
+#   sequence:
+#     - service: input_boolean.turn_off
+#       data_template:
+#         entity_id: 
+#           - '{{ off_one }}'
+#           - '{{ off_two }}'
+#     - service: input_boolean.turn_on
+#       data_template:
+#         entity_id: '{{ on_one }}'

@@ -1,4 +1,4 @@
-- alias: SunSet
+- alias: BeforeSunSet
   trigger:
      - platform: sun
        event: sunset
@@ -11,6 +11,16 @@
   action:
     - service: script.evening_mode
     
+- alias: SunSet
+  trigger:
+     - platform: sun
+       event: sunset
+  action:
+    - service: light.turn_on
+      data:
+        entity_id: light.dc4f22d3dbf9_100013
+        brightness_pct: 5
+
 - alias: Night Mode
   trigger:
     #platform: sun
@@ -37,11 +47,11 @@
       entity_id: sensor.thermostat_current_temperature
   condition:
     condition: template
-    value_template: "{{ states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes.current_temperature == states.climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1.attributes.temperature }}"
+    value_template: "{{ states.climate.thermostat_cooling.attributes.current_temperature == states.climate.thermostat_heating.attributes.temperature }}"
   action:
     - service: climate.set_operation_mode
       data:
-        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1
+        entity_id: climate.thermostat_cooling
         operation_mode: "Off"
 
 - alias: Morning Heat
@@ -50,13 +60,13 @@
       at: '07:30:00'
   condition:
     - condition: template
-      value_template: "{{ 63 > states.climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1.attributes.current_temperature }}"
-    - condition: template
-      value_template: "{{ 37 > (states.sensor.pws_temp_f.state | float) }}"
+      value_template: "{{ 63 > states.climate.thermostat_cooling.attributes.current_temperature }}"
+    #- condition: template
+    #  value_template: "{{ 37 > (states.weather.dark_sky.attributes.temperature | float) }}"
   action:
     - service: climate.set_operation_mode
       data:
-        entity_id: climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1
+        entity_id: climate.thermostat_heating
         operation_mode: "Heat"
 
 - alias: Lock Jammed
@@ -68,8 +78,21 @@
     - service: light.turn_on
       data:
         entity_id: light.dc4f22e35c77_100017
-        flash: 
+        brightness_pct: 20
+        color_name: red
 
+- alias: Uitilty Closet Temp
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.aeotec_temperature
+      below: 37
+  action:
+    - service: climate.set_operation_mode
+      data:
+        entity_id: climate.thermostat_heating
+        operation_mode: "Heat"
+    - service: automation.turn_off
+      entity_id: automation.morning_heat
 # - alias: Lock Room
 #   trigger:
 #     - platform: template

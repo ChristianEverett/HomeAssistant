@@ -1,13 +1,8 @@
-sensor.pws_temp_f:
+sensor.thermostat_temperature:
     friendly_name: Temperature
-sensor.pws_relative_humidity:
-    friendly_name: Humidity
-
-sensor.linear_gctbz48_battery_powered_zwave_thermostat_temperature:
-    friendly_name: Temperature
-climate.linear_gctbz48_battery_powered_zwave_thermostat_heating_1:
+climate.thermostat_heating:
     friendly_name: Heat
-climate.linear_gctbz48_battery_powered_zwave_thermostat_cooling_1:
+climate.thermostat_cooling:
     friendly_name: AC
     
 light.level:
@@ -15,12 +10,12 @@ light.level:
     state_card_mode: break-slider-toggle
     stretch_slider: true
     
-light.level_2:
+light.main:
     friendly_name: Main
     state_card_mode: break-slider-toggle
     stretch_slider: true
     
-light.level_3:
+light.desk:
     friendly_name: Desk
     state_card_mode: break-slider-toggle
     stretch_slider: true
@@ -30,24 +25,65 @@ light.sengled_e11g13_031e1173_1:
     state_card_mode: break-slider-toggle
     stretch_slider: true
 
-light.dc4f22e35c77_100017:
+light.dc4f22e35c77_10009:
+    friendly_name: Kitchen Left
+    state_card_mode: break-slider-toggle
+    stretch_slider: true
+
+light.dc4f22e3e07c_10008:
+    friendly_name: Kitchen Right
+    state_card_mode: break-slider-toggle
+    stretch_slider: true
+
+light.dc4f22d3dbf9_100013:
     friendly_name: TV Light
     state_card_mode: break-slider-toggle
     stretch_slider: true
 
-light.dc4f22e3e07c_100019:
-    friendly_name: Kitchen Light
-    state_card_mode: break-slider-toggle
-    stretch_slider: true
-
-switch.zooz_zen15_power_switch_zwaveswitch:
-    friendly_name: Kitchen Lights
+switch.zwaveswitch_1:
+    friendly_name: ZWave Switch
     
 lock.august:
     friendly_name: Front Door Lock
    
 cover.garage_door_opener: 
     icon: mdi:car
+
+light.sengled_e11n1ea_00031820_1:
+  friendly_name: 1
+light.sengled_e11n1ea_000359a2_1:
+  friendly_name: 2
+light.sengled_e11n1ea_00037429_1:
+  friendly_name: 3
+light.sengled_e11n1ea_0003b488_1:
+  friendly_name: 4
+light.sengled_e11n1ea_0003bff9_1:
+  friendly_name: 5
+light.sengled_e11n1ea_0004dd70_1:
+  friendly_name: 6
+light.sengled_e11n1ea_0004e0e5_1:
+  friendly_name: 7
+light.sengled_e11n1ea_0004e66d_1:
+  friendly_name: 8
+
+# group.bathroom:
+#     hidden: true
+
+group.hallLight1:
+    hidden: true
+
+group.hallLight2:
+    hidden: true
+
+group.hallLight3:
+    hidden: true
+
+group.bathroomHallwayLights:
+    hidden: false
+
+group.all_lights:
+    hidden: false
+    friendly_name: 'All Lights'
 
 group.all_automations:
     hidden: false

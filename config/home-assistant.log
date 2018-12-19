@@ -1,57 +1,8 @@
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.config] Invalid config for [http]: value should be a string for dictionary value @ data['http']['base_url']. Got ['https://hasystem.duckdns.org']. (See /config/configuration.yaml, line 34). Please check the docs at https://home-assistant.io/components/http/
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Setup failed for http: Invalid config.
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of websocket_api. Setup failed for dependencies: http
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Setup failed for websocket_api: Could not set up all dependencies.
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of system_log. Setup failed for dependencies: http
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Setup failed for system_log: Could not set up all dependencies.
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of auth. Setup failed for dependencies: http
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Setup failed for auth: Could not set up all dependencies.
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of onboarding. Setup failed for dependencies: http
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Setup failed for onboarding: Could not set up all dependencies.
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of api. Setup failed for dependencies: http
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Setup failed for api: Could not set up all dependencies.
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of frontend. Setup failed for dependencies: api, websocket_api, http, system_log, auth, onboarding
-2018-11-23 14:18:57 ERROR (MainThread) [homeassistant.setup] Setup failed for frontend: Could not set up all dependencies.
-2018-11-23 14:19:00 WARNING (Recorder) [homeassistant.components.recorder] Ended unfinished session (id=215 from 2018-11-23 19:13:30.953138)
-2018-11-23 14:19:01 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of history. Setup failed for dependencies: http
-2018-11-23 14:19:01 ERROR (MainThread) [homeassistant.setup] Setup failed for history: Could not set up all dependencies.
-2018-11-23 14:19:01 WARNING (MainThread) [homeassistant.loader] You are using a custom component for customizer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
-2018-11-23 14:19:07 ERROR (MainThread) [homeassistant.config] Invalid config for [google_assistant]: [client_id] is an invalid option for [google_assistant]. Check: google_assistant->google_assistant->client_id. (See /config/configuration.yaml, line 119). Please check the docs at https://home-assistant.io/components/google_assistant/
-2018-11-23 14:19:07 ERROR (MainThread) [homeassistant.setup] Setup failed for google_assistant: Invalid config.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of customizer. Setup failed for dependencies: frontend
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for customizer: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of conversation. Setup failed for dependencies: http
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for conversation: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of config. Setup failed for dependencies: http
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for config: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of alexa. Setup failed for dependencies: http
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for alexa: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of logbook. Setup failed for dependencies: frontend
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for logbook: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of hassio. Setup failed for dependencies: http
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for hassio: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of tts. Setup failed for dependencies: http
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for tts: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of notify.html5. Setup failed for dependencies: frontend
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to prepare setup for platform notify.html5: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.components.notify] Unknown notification service specified
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of webhook. Setup failed for dependencies: http
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for webhook: Could not set up all dependencies.
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of ifttt. Setup failed for dependencies: webhook
-2018-11-23 14:19:09 ERROR (MainThread) [homeassistant.setup] Setup failed for ifttt: Could not set up all dependencies.
-2018-11-23 14:19:10 ERROR (MainThread) [homeassistant.components.sensor] systemmonitor: Error on device update!
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.6/site-packages/homeassistant/helpers/entity_platform.py", line 251, in _async_add_entity
-    await entity.async_device_update(warning=False)
-  File "/usr/local/lib/python3.6/site-packages/homeassistant/helpers/entity.py", line 349, in async_device_update
-    await self.hass.async_add_executor_job(self.update)
-  File "/usr/local/lib/python3.6/concurrent/futures/thread.py", line 56, in run
-    result = self.fn(*self.args, **self.kwargs)
-  File "/usr/local/lib/python3.6/site-packages/homeassistant/components/sensor/systemmonitor.py", line 123, in update
-    self._state = round(psutil.disk_usage(self.argument).free /
-  File "/usr/local/lib/python3.6/site-packages/psutil/__init__.py", line 1978, in disk_usage
-    return _psplatform.disk_usage(path)
-  File "/usr/local/lib/python3.6/site-packages/psutil/_psposix.py", line 127, in disk_usage
-    st = os.statvfs(path)
-FileNotFoundError: [Errno 2] No such file or directory: ''
-2018-11-23 14:19:19 WARNING (MainThread) [homeassistant.components.light] Setup of platform flux_led is taking over 10 seconds.
+2018-12-19 14:38:10 WARNING (MainThread) [homeassistant.components.http] legacy_api_password support has been enabled. If you don't require it, remove the 'api_password' from your http config.
+2018-12-19 14:38:18 WARNING (MainThread) [homeassistant.loader] You are using a custom component for customizer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2018-12-19 14:38:29 WARNING (MainThread) [homeassistant.components.light] Setup of platform flux_led is taking over 10 seconds.
+2018-12-19 14:39:12 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_current_temperature, the state is unknown.
+2018-12-19 14:39:12 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_setpoint, the state is unknown.
+2018-12-19 14:39:12 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template bedroom, the state is unknown.
+2018-12-19 14:39:12 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template Harmony Status, the state is unknown.
+2018-12-19 15:19:42 ERROR (MainThread) [homeassistant.components.google_assistant.smart_home] Error handling message {'inputs': [{'intent': 'action.devices.DISCONNECT'}], 'requestId': '17435014683775194053'}: {'errorCode': 'protocolError'}
