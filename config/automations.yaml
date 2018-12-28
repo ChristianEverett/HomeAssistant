@@ -11,10 +11,11 @@
   action:
     - service: script.evening_mode
     
-- alias: SunSet
+- alias: AfterSunSet
   trigger:
      - platform: sun
        event: sunset
+       offset: "+01:00:00"
   action:
     - service: light.turn_on
       data:
@@ -57,7 +58,7 @@
 - alias: Morning Heat
   trigger:
     - platform: time
-      at: '07:30:00'
+      at: '07:45:00'
   condition:
     - condition: template
       value_template: "{{ 63 > states.climate.thermostat_cooling.attributes.current_temperature }}"
@@ -72,14 +73,13 @@
 - alias: Lock Jammed
   trigger:
     - platform: state
-      entity_id: sensor.lock_access_control
+      entity_id: sensor.august_lock_status
       to: '11'
   action:
-    - service: light.turn_on
+    - service: ifttt.trigger
       data:
-        entity_id: light.dc4f22e35c77_100017
-        brightness_pct: 20
-        color_name: red
+        event: Notify
+        value1: Lock Jammed
 
 - alias: Uitilty Closet Temp
   trigger:
@@ -93,6 +93,23 @@
         operation_mode: "Heat"
     - service: automation.turn_off
       entity_id: automation.morning_heat
+    - service: ifttt.trigger
+      data:
+        event: Notify
+        value1: Morning Heat Disabled
+
+# - alias: Turn Down Bathroom Light
+#   trigger:
+#     platform: state
+#     entity_id: light.sengled_1
+#     for:
+#       minutes: 10
+#   action:
+#     service: light.sengled_1
+#     data:
+#       entity_id: light.sengled_1
+#       brightness_pct: 5
+
 # - alias: Lock Room
 #   trigger:
 #     - platform: template

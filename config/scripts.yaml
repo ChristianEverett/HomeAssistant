@@ -2,13 +2,11 @@ evening_mode:
   sequence:
     - service: switch.turn_on
       entity_id: 
-        - switch.zwaveswitch_1
-        - switch.b
+        - switch.d
     - service: light.turn_on
       entity_id: 
         - light.desk
         - light.main
-        - switch.b
     # - service: light.turn_on
     #   entity_id:
     #     - light.sengled_7
@@ -20,16 +18,20 @@ night_mode:
   sequence:
     - service: switch.turn_off
       entity_id: 
-        - switch.zwaveswitch_1
+        - switch.d
     - service: light.turn_off
       entity_id: 
+        - light.dc4f22e35c77_10009
+        - light.dc4f22e3e07c_10008
         - light.desk
         - light.main
 
 day_mode:
   sequence:
-    - service: switch.turn_on
-      entity_id: switch.zwaveswitch_1
+    - service: light.turn_on
+      entity_id: 
+        - light.dc4f22e35c77_10009
+        - light.dc4f22e3e07c_10008
       
 leave:
   sequence:

@@ -399,7 +399,7 @@
             },
             {
                 "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "a9cbec03365e4dc2a0188ea0199ad860",
+                "device_id": "6aa5e7ac7e7248f68851877dbed8976c",
                 "disabled_by": null,
                 "entity_id": "sensor.lock_id033f_lock_type0001_id0001_alarm_type",
                 "name": null,
@@ -408,7 +408,7 @@
             },
             {
                 "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "a9cbec03365e4dc2a0188ea0199ad860",
+                "device_id": "6aa5e7ac7e7248f68851877dbed8976c",
                 "disabled_by": null,
                 "entity_id": "sensor.lock_id033f_lock_type0001_id0001_alarm_level",
                 "name": null,
@@ -417,7 +417,7 @@
             },
             {
                 "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "a9cbec03365e4dc2a0188ea0199ad860",
+                "device_id": "6aa5e7ac7e7248f68851877dbed8976c",
                 "disabled_by": null,
                 "entity_id": "sensor.lock_id033f_lock_type0001_id0001_sourcenodeid",
                 "name": null,
@@ -588,15 +588,6 @@
             },
             {
                 "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "740ad68ba3474e61a8f6565768e1d538",
-                "disabled_by": null,
-                "entity_id": "sensor.thermostat_temperature",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "26-72057594479132690"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
                 "device_id": "90e3db5b4cb549c8b19446b7274a60cb",
                 "disabled_by": null,
                 "entity_id": "switch.zwaveswitch_1",
@@ -623,15 +614,6 @@
                 "unique_id": "35-72057594629947393"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "lock.august",
-                "name": "",
-                "platform": "zwave",
-                "unique_id": "34-72057594614153216"
-            },
-            {
                 "config_entry_id": "accbb7b88116410cb129041d0d76b166",
                 "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
                 "disabled_by": null,
@@ -650,247 +632,112 @@
                 "unique_id": "YN00XX728448"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "a9cbec03365e4dc2a0188ea0199ad860",
+                "config_entry_id": null,
+                "device_id": null,
                 "disabled_by": null,
-                "entity_id": "sensor.august_lock_status",
+                "entity_id": "zwave.linear_gctbz48_battery_powered_zwave_thermostat_2",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "34-72057594614399121"
+                "unique_id": "node-38"
             },
             {
                 "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "740ad68ba3474e61a8f6565768e1d538",
+                "device_id": "131b848828bb407484043c27605c7cbd",
                 "disabled_by": null,
-                "entity_id": "climate.thermostat_cooling",
+                "entity_id": "sensor.linear_gctbz48_battery_powered_zwave_thermostat_temperature",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "26-72057594479427618"
+                "unique_id": "38-72057594680459282"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.linear_gctbz48_battery_powered_zwave_thermostat_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-40"
             },
             {
                 "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "740ad68ba3474e61a8f6565768e1d538",
+                "device_id": "543cb175d2444c7a859bb75079576c44",
                 "disabled_by": null,
                 "entity_id": "climate.thermostat_heating",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "26-72057594479427602"
+                "unique_id": "40-72057594714308626"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "543cb175d2444c7a859bb75079576c44",
+                "disabled_by": null,
+                "entity_id": "climate.thermostat_cooling",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "40-72057594714308642"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "543cb175d2444c7a859bb75079576c44",
+                "disabled_by": null,
+                "entity_id": "sensor.thermostat_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "40-72057594714013714"
             },
             {
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0003b488",
+                "entity_id": "zwave.august_asl03_smart_lock",
                 "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0003b488"
+                "platform": "zwave",
+                "unique_id": "node-41"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "4c92f977d5a84f9a9a0660fb4eb5415a",
+                "disabled_by": null,
+                "entity_id": "sensor.august_asl03_smart_lock_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "41-72057594731839489"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "4c92f977d5a84f9a9a0660fb4eb5415a",
+                "disabled_by": null,
+                "entity_id": "sensor.august_asl03_smart_lock_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "41-72057594731839505"
             },
             {
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_000359a2",
+                "entity_id": "lock.august_asl03_smart_lock_locked",
                 "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_000359a2"
+                "platform": "zwave",
+                "unique_id": "41-72057594731593728"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "4c92f977d5a84f9a9a0660fb4eb5415a",
                 "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0003b488_1_1794",
+                "entity_id": "sensor.august_asl03_smart_lock_sourcenodeid",
                 "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:b4:88-1-1794"
+                "platform": "zwave",
+                "unique_id": "41-72057594731839521"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "4c92f977d5a84f9a9a0660fb4eb5415a",
                 "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_000359a2_1_1794",
+                "entity_id": "sensor.august_asl03_smart_lock_access_control",
                 "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:59:a2-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0003b488_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:b4:88-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_000359a2_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:59:a2-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0004e0e5",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0004e0e5"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0004e66d",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0004e66d"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0004e0e5_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:e0:e5-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0004e66d_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:e6:6d-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0004e0e5_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:e0:e5-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0004e66d_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:e6:6d-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0004dd70",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0004dd70"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_00031820",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_00031820"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0004dd70_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:dd:70-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_00031820_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:18:20-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0004dd70_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:dd:70-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_00031820_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:18:20-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0003bff9",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0003bff9"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_00037429",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_00037429"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0003bff9_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:bf:f9-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_00037429_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:74:29-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0003bff9_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:bf:f9-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_00037429_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:74:29-1"
+                "platform": "zwave",
+                "unique_id": "41-72057594731839633"
             },
             {
                 "config_entry_id": null,
@@ -915,9 +762,243 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "light.sengled_1",
-                "name": "Bathroom",
+                "name": null,
                 "platform": "zha",
                 "unique_id": "b0:ce:18:14:03:1e:11:73-1"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "0d731f9a397445c4803b91fea662f89a",
+                "disabled_by": null,
+                "entity_id": "sensor.august_asl03_smart_lock_alarm_type_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "42-72057594748616705"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "0d731f9a397445c4803b91fea662f89a",
+                "disabled_by": null,
+                "entity_id": "sensor.august_asl03_smart_lock_alarm_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "42-72057594748616721"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.august_asl03_smart_lock_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-42"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "0d731f9a397445c4803b91fea662f89a",
+                "disabled_by": null,
+                "entity_id": "sensor.august_asl03_smart_lock_sourcenodeid_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "42-72057594748616737"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "lock.august_old",
+                "name": "",
+                "platform": "zwave",
+                "unique_id": "34-72057594614153216"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "lock.august",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "42-72057594748370944"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "6aa5e7ac7e7248f68851877dbed8976c",
+                "disabled_by": null,
+                "entity_id": "sensor.august_lock_status_old",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "34-72057594614399121"
+            },
+            {
+                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
+                "device_id": "0d731f9a397445c4803b91fea662f89a",
+                "disabled_by": null,
+                "entity_id": "sensor.august_lock_status",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "42-72057594748616849"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zha.zha_sengled_e11n1ea_0003bff9",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "sengled_e11n1ea_0003bff9"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.sengled_e11n1ea_0003bff9_1_1794",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:03:bf:f9-1-1794"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.sengled_e11n1ea_0003bff9_1",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:03:bf:f9-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zha.zha_sengled_e11n1ea_00037429",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "sengled_e11n1ea_00037429"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.sengled_e11n1ea_00037429_1",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:03:74:29-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.sengled_e11n1ea_00037429_1_1794",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:03:74:29-1-1794"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zha.zha_sengled_e11n1ea_0004e66d",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "sengled_e11n1ea_0004e66d"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zha.zha_sengled_e11n1ea_0004e0e5",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "sengled_e11n1ea_0004e0e5"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zha.zha_sengled_e11n1ea_0004dd70",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "sengled_e11n1ea_0004dd70"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.sengled_e11n1ea_0004e66d_1",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:04:e6:6d-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.sengled_e11n1ea_0004e0e5_1",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:04:e0:e5-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.sengled_e11n1ea_0004dd70_1",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:04:dd:70-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.sengled_e11n1ea_0004e0e5_1_1794",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:04:e0:e5-1-1794"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.sengled_e11n1ea_0004e66d_1_1794",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:04:e6:6d-1-1794"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.sengled_e11n1ea_0004dd70_1_1794",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:04:dd:70-1-1794"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zha.zha_sengled_e11n1ea_00031820",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "sengled_e11n1ea_00031820"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.sengled_e11n1ea_00031820_1",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:03:18:20-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.sengled_e11n1ea_00031820_1_1794",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:03:18:20-1-1794"
             }
         ]
     },

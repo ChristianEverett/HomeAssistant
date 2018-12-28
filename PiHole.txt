@@ -1,0 +1,16 @@
+{
+  "log_level": "info",
+  "password": "6037706823",
+  "update_lists_on_start": false,
+  "admin_port": 4865,
+  "dns_port": 53,
+  "ssl": true,
+  "certfile": "fullchain.pem",
+  "keyfile": "privkey.pem",
+  "interface": "",
+  "ipv6": true,
+  "ipv4_address": "",
+  "ipv6_address": "",
+  "virtual_host": "hasystem.duckdns.org",
+  "hosts": []
+}

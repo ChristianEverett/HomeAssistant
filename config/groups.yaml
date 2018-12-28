@@ -7,13 +7,10 @@ default_view:
         - group.aeotecSensor
         - group.doors
         - group.thermostat
-        - group.bathroomHallwayLights
         - group.switches
+        - group.kitchenLights
         - group.all_automations
         - group.all_scripts
-        - group.lightsG
-        - group.all_lights
-
 users:
     name: Users
     entities:
@@ -50,69 +47,10 @@ kitchenLights:
         - light.dc4f22e35c77_10009
         - light.dc4f22e3e07c_10008
 
-# bathroomHallwayLights:
-#     name: Lights
-#     entities:
-#         - group.hallLight1
-#         - group.hallLight2
-#         - group.hallLight3
-#         - group.bathroom
-
-# hallLight1:
-#     name: Hallway 1
-#     entities:
-#         - light.sengled_1
-#         - light.sengled_2
-
-# hallLight2:
-#     name: Hallway 2
-#     entities:
-#         - light.sengled_3
-#         - light.sengled_4
-
-# hallLight3:
-#     name: Hallway 3
-#     entities:
-#         - light.sengled_5
-#         - light.sengled_6
-
-# bathroom:
-#     name: Bathroom
-#     entities:
-#         - light.sengled_7
-#         - light.sengled_8
-
-lightsG:
-    name: Lights
-    entities:
-        - light.sengled_e11n1ea_00031820_1
-        - light.sengled_e11n1ea_000359a2_1
-        - light.sengled_e11n1ea_00037429_1
-        - light.sengled_e11n1ea_0003b488_1
-        - light.sengled_e11n1ea_0003bff9_1
-        - light.sengled_e11n1ea_0004dd70_1
-        - light.sengled_e11n1ea_0004e0e5_1
-        - light.sengled_e11n1ea_0004e66d_1
-
-# group1Lights:
-#     control: hidden
-#     entities:
-#         - light.sengled_1
-#         - light.sengled_3
-#         - light.sengled_5
-#         - light.sengled_7
-
-# group2Lights:
-#     control: hidden
-#     entities:
-#         - light.sengled_2
-#         - light.sengled_4
-#         - light.sengled_6
-#         - light.sengled_8
-
 switches:
     name: Switches
     entities:
+        - switch.d
         - light.desk
         - light.main
         - switch.zwaveswitch_1
@@ -120,13 +58,6 @@ switches:
         - light.dc4f22e3e07c_10008
         - light.dc4f22d3dbf9_100013
         - light.sengled_1
- #       - switch.a
- #       - switch.b
- #       - switch.c
- #       - switch.d
- #       - light.level
- #       - light.sengled_e11g13_031e1173_1
- #       - light.sengled_e11n1ea_0004dd70_1
 
 # harmony:
 #     name: Harmony

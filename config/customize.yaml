@@ -5,11 +5,6 @@ climate.thermostat_heating:
 climate.thermostat_cooling:
     friendly_name: AC
     
-light.level:
-    friendly_name: Hallway
-    state_card_mode: break-slider-toggle
-    stretch_slider: true
-    
 light.main:
     friendly_name: Main
     state_card_mode: break-slider-toggle
@@ -20,8 +15,8 @@ light.desk:
     state_card_mode: break-slider-toggle
     stretch_slider: true
     
-light.sengled_e11g13_031e1173_1:
-    friendly_name: Sengled
+light.sengled_1:
+    friendly_name: BathRoom
     state_card_mode: break-slider-toggle
     stretch_slider: true
 
@@ -48,42 +43,6 @@ lock.august:
    
 cover.garage_door_opener: 
     icon: mdi:car
-
-light.sengled_e11n1ea_00031820_1:
-  friendly_name: 1
-light.sengled_e11n1ea_000359a2_1:
-  friendly_name: 2
-light.sengled_e11n1ea_00037429_1:
-  friendly_name: 3
-light.sengled_e11n1ea_0003b488_1:
-  friendly_name: 4
-light.sengled_e11n1ea_0003bff9_1:
-  friendly_name: 5
-light.sengled_e11n1ea_0004dd70_1:
-  friendly_name: 6
-light.sengled_e11n1ea_0004e0e5_1:
-  friendly_name: 7
-light.sengled_e11n1ea_0004e66d_1:
-  friendly_name: 8
-
-# group.bathroom:
-#     hidden: true
-
-group.hallLight1:
-    hidden: true
-
-group.hallLight2:
-    hidden: true
-
-group.hallLight3:
-    hidden: true
-
-group.bathroomHallwayLights:
-    hidden: false
-
-group.all_lights:
-    hidden: false
-    friendly_name: 'All Lights'
 
 group.all_automations:
     hidden: false

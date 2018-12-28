@@ -79,3 +79,19 @@ z557bl:
   name: Z557BL
   picture:
   track: true
+
+shawns_ipad:
+  hide_if_away: false
+  icon:
+  mac: BT_78:3A:84:B6:32:78
+  name: Shawn's iPad
+  picture:
+  track: true
+
+roku_player:
+  hide_if_away: false
+  icon:
+  mac: BT_CC:6D:A0:B9:DD:48
+  name: Roku Player
+  picture:
+  track: true

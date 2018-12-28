@@ -19,6 +19,7 @@
 #        - 'date'
 #        - 'time_date'
 
+# Defined in lock_access_control
 # 0 - unassigned
 # 1 - Manual Lock Operation
 # 2 - Manual Unlock Operation

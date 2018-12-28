@@ -133,24 +133,6 @@
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "a9cbec03365e4dc2a0188ea0199ad860",
-                "identifiers": [
-                    [
-                        "zwave",
-                        34
-                    ]
-                ],
-                "manufacturer": "Unknown: id=033f",
-                "model": "Unknown: type=0001, id=0001",
-                "name": "Lock: id=033f Lock: type=0001, id=0001",
-                "sw_version": null
-            },
-            {
-                "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
-                ],
-                "connections": [],
-                "hub_device_id": null,
                 "id": "3ccd44c29c6048b2b134ce571ee40968",
                 "identifiers": [
                     [
@@ -161,6 +143,78 @@
                 "manufacturer": "FIBARO System",
                 "model": "FGRGBWM441 RGBW Controller",
                 "name": "FIBARO System FGRGBWM441 RGBW Controller",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "accbb7b88116410cb129041d0d76b166"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "131b848828bb407484043c27605c7cbd",
+                "identifiers": [
+                    [
+                        "zwave",
+                        38
+                    ]
+                ],
+                "manufacturer": "Linear",
+                "model": "GC-TBZ48 Battery Powered Z-Wave Thermostat",
+                "name": "Linear GC-TBZ48 Battery Powered Z-Wave Thermostat",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "accbb7b88116410cb129041d0d76b166"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "543cb175d2444c7a859bb75079576c44",
+                "identifiers": [
+                    [
+                        "zwave",
+                        40
+                    ]
+                ],
+                "manufacturer": "Linear",
+                "model": "GC-TBZ48 Battery Powered Z-Wave Thermostat",
+                "name": "Linear GC-TBZ48 Battery Powered Z-Wave Thermostat",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "accbb7b88116410cb129041d0d76b166"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "6aa5e7ac7e7248f68851877dbed8976c",
+                "identifiers": [
+                    [
+                        "zwave",
+                        34
+                    ]
+                ],
+                "manufacturer": "August",
+                "model": "ASL-03 Smart Lock",
+                "name": "August ASL-03 Smart Lock",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "accbb7b88116410cb129041d0d76b166"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "0d731f9a397445c4803b91fea662f89a",
+                "identifiers": [
+                    [
+                        "zwave",
+                        42
+                    ]
+                ],
+                "manufacturer": "August",
+                "model": "ASL-03 Smart Lock",
+                "name": "August ASL-03 Smart Lock",
                 "sw_version": null
             }
         ]

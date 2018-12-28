@@ -1,8 +1,9 @@
-2018-12-19 14:38:10 WARNING (MainThread) [homeassistant.components.http] legacy_api_password support has been enabled. If you don't require it, remove the 'api_password' from your http config.
-2018-12-19 14:38:18 WARNING (MainThread) [homeassistant.loader] You are using a custom component for customizer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
-2018-12-19 14:38:29 WARNING (MainThread) [homeassistant.components.light] Setup of platform flux_led is taking over 10 seconds.
-2018-12-19 14:39:12 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_current_temperature, the state is unknown.
-2018-12-19 14:39:12 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_setpoint, the state is unknown.
-2018-12-19 14:39:12 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template bedroom, the state is unknown.
-2018-12-19 14:39:12 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template Harmony Status, the state is unknown.
-2018-12-19 15:19:42 ERROR (MainThread) [homeassistant.components.google_assistant.smart_home] Error handling message {'inputs': [{'intent': 'action.devices.DISCONNECT'}], 'requestId': '17435014683775194053'}: {'errorCode': 'protocolError'}
+2018-12-28 12:44:42 WARNING (MainThread) [homeassistant.components.http] legacy_api_password support has been enabled. If you don't require it, remove the 'api_password' from your http config.
+2018-12-28 12:44:51 WARNING (MainThread) [homeassistant.loader] You are using a custom component for customizer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2018-12-28 12:45:03 WARNING (MainThread) [homeassistant.components.light] Setup of platform flux_led is taking over 10 seconds.
+2018-12-28 12:45:47 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template Harmony Status, the state is unknown.
+2018-12-28 12:45:47 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template bedroom, the state is unknown.
+2018-12-28 12:45:47 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_current_temperature, the state is unknown.
+2018-12-28 12:45:47 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_setpoint, the state is unknown.
+2018-12-28 12:46:22 WARNING (MainThread) [homeassistant.components.zwave] Z-Wave node 28 not ready after 30 seconds, continuing anyway
+2018-12-28 12:49:25 ERROR (MainThread) [homeassistant.components.light.zha] light.sengled_1: Couldn't change brightness level: Message send failure: EmberStatus.DELIVERY_FAILED

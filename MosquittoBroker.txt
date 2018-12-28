@@ -1,0 +1,15 @@
+{
+  "logins": [
+    {
+      "username": "admin",
+      "password": "6037706823"
+    }
+  ],
+  "anonymous": false,
+  "customize": {
+    "active": false,
+    "folder": "mosquitto"
+  },
+  "certfile": "fullchain.pem",
+  "keyfile": "privkey.pem"
+}

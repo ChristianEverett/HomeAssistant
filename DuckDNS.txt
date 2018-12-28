@@ -1,0 +1,12 @@
+{
+  "lets_encrypt": {
+    "accept_terms": true,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem"
+  },
+  "token": "3c520eb2-fec9-4237-b529-8c484ed462c9",
+  "domains": [
+    "hasystem.duckdns.org"
+  ],
+  "seconds": 300
+}
