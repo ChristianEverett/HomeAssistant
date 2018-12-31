@@ -1,0 +1,51 @@
+{
+  "name": "home-assistant-custom-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.2",
+    "babel-core": "^6.26.0",
+    "del": "^3.0.0",
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-zopfli": "^1.0.0",
+    "require-dir": "^0.3.2",
+    "webpack": "^4.8.3"
+  },
+  "scripts": {
+    "init": "yarn install",
+    "test": "eslint src gulp webpack.config.js && polymer lint",
+    "webpack": "webpack",
+    "gulp": "gulp",
+    "gzip": "yarn run gulp compress",
+    "build": "yarn run webpack && yarn run gulp && cp build/*.{html,map,LICENSE} . && cp build/*dbg*.js . && yarn run gzip",
+    "deploy": "yarn run test && yarn run build && cp *.{js,html,map,LICENSE,gz} ~/.homeassistant/www/custom_ui/",
+    "deploy_dev": "rm -rf ~/.homeassistant/www/custom_ui/* && yarn run deploy && mv ~/.homeassistant/www/custom_ui/state-card-custom-ui-dbg-es5.html.gz ~/.homeassistant/www/custom_ui/state-card-custom-ui-es5.html.gz && mv ~/.homeassistant/www/custom_ui/state-card-custom-ui-dbg.html.gz ~/.homeassistant/www/custom_ui/state-card-custom-ui.html.gz",
+    "fix_date": "script/fix_date.sh",
+    "release": "yarn run test && yarn run fix_date && yarn run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrey-git/home-assistant-custom-ui.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrey-git/home-assistant-custom-ui/issues"
+  },
+  "homepage": "https://github.com/andrey-git/home-assistant-custom-ui#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint-plugin-import": "^2.12.0",
+    "gulp-batch-replace": "^0.0.0",
+    "gulp-inline-source": "^3.1.0",
+    "polymer-cli": "^1.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack-cli": "^2.1.3"
+  }
+}

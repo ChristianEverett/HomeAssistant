@@ -3,101 +3,57 @@
         "devices": [
             {
                 "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
+                    "5200aec829c842d48a95e324a710b7e0"
                 ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "ce6c51e93e31440785ed8b06cd8eef23",
-                "identifiers": [
+                "connections": [
                     [
-                        "zwave",
-                        25
+                        "zigbee",
+                        "00:0d:6f:00:0b:13:14:16"
                     ]
                 ],
-                "manufacturer": "Aeotec",
-                "model": "ZW100 MultiSensor 6",
-                "name": "Aeotec ZW100 MultiSensor 6",
+                "hub_device_id": null,
+                "id": "d5dc73a86a6c4d2e8626d1c9c32080f0",
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:0d:6f:00:0b:13:14:16"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "EZSP",
+                "name": "Zigbee Coordinator",
                 "sw_version": null
             },
             {
                 "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
+                    "5200aec829c842d48a95e324a710b7e0"
                 ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "740ad68ba3474e61a8f6565768e1d538",
-                "identifiers": [
+                "connections": [
                     [
-                        "zwave",
-                        26
+                        "zigbee",
+                        "b0:ce:18:14:00:03:59:a2"
                     ]
                 ],
-                "manufacturer": "Linear",
-                "model": "GC-TBZ48 Battery Powered Z-Wave Thermostat",
-                "name": "Linear GC-TBZ48 Battery Powered Z-Wave Thermostat",
+                "hub_device_id": "d5dc73a86a6c4d2e8626d1c9c32080f0",
+                "id": "bf2043f39e3549228029c181027fbcc4",
+                "identifiers": [
+                    [
+                        "zha",
+                        "b0:ce:18:14:00:03:59:a2"
+                    ]
+                ],
+                "manufacturer": "sengled",
+                "model": "E11-N1EA",
+                "name": "sengled E11-N1EA",
                 "sw_version": null
             },
             {
                 "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
+                    "507b9def736b41518b8ea7330d7cfad9"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "0545d787cd34428aad53b131405bf906",
-                "identifiers": [
-                    [
-                        "zwave",
-                        27
-                    ]
-                ],
-                "manufacturer": "GE",
-                "model": "14294 In-Wall Smart Dimmer",
-                "name": "GE 14294 In-Wall Smart Dimmer",
-                "sw_version": null
-            },
-            {
-                "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "af592b0c1b344cff8851487e6c2021f6",
-                "identifiers": [
-                    [
-                        "zwave",
-                        28
-                    ]
-                ],
-                "manufacturer": "Hank",
-                "model": "HKZW-DWS01 Door/Window Sensor",
-                "name": "Hank HKZW-DWS01 Door/Window Sensor",
-                "sw_version": null
-            },
-            {
-                "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "90e3db5b4cb549c8b19446b7274a60cb",
-                "identifiers": [
-                    [
-                        "zwave",
-                        29
-                    ]
-                ],
-                "manufacturer": "Zooz",
-                "model": "ZEN15 Power Switch",
-                "name": "Zooz ZEN15 Power Switch",
-                "sw_version": null
-            },
-            {
-                "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "d6c4d8347be146b2a2089af654e0b9f1",
+                "id": "109d6198d52b481fafdf770de078a396",
                 "identifiers": [
                     [
                         "zwave",
@@ -111,65 +67,29 @@
             },
             {
                 "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
+                    "507b9def736b41518b8ea7330d7cfad9"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "6c8606f061e24a68af6bcf0cc4b39792",
+                "id": "9700785c31234940a55417596591f59d",
                 "identifiers": [
                     [
                         "zwave",
-                        31
+                        29
                     ]
                 ],
-                "manufacturer": "FIBARO System",
-                "model": "FGRGBWM441 RGBW Controller",
-                "name": "FIBARO System FGRGBWM441 RGBW Controller",
+                "manufacturer": "Zooz",
+                "model": "ZEN15 Power Switch",
+                "name": "Zooz ZEN15 Power Switch",
                 "sw_version": null
             },
             {
                 "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
+                    "507b9def736b41518b8ea7330d7cfad9"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "3ccd44c29c6048b2b134ce571ee40968",
-                "identifiers": [
-                    [
-                        "zwave",
-                        35
-                    ]
-                ],
-                "manufacturer": "FIBARO System",
-                "model": "FGRGBWM441 RGBW Controller",
-                "name": "FIBARO System FGRGBWM441 RGBW Controller",
-                "sw_version": null
-            },
-            {
-                "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "131b848828bb407484043c27605c7cbd",
-                "identifiers": [
-                    [
-                        "zwave",
-                        38
-                    ]
-                ],
-                "manufacturer": "Linear",
-                "model": "GC-TBZ48 Battery Powered Z-Wave Thermostat",
-                "name": "Linear GC-TBZ48 Battery Powered Z-Wave Thermostat",
-                "sw_version": null
-            },
-            {
-                "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "543cb175d2444c7a859bb75079576c44",
+                "id": "95b9fe69642847f4b45d887c16b43475",
                 "identifiers": [
                     [
                         "zwave",
@@ -183,29 +103,11 @@
             },
             {
                 "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
+                    "507b9def736b41518b8ea7330d7cfad9"
                 ],
                 "connections": [],
                 "hub_device_id": null,
-                "id": "6aa5e7ac7e7248f68851877dbed8976c",
-                "identifiers": [
-                    [
-                        "zwave",
-                        34
-                    ]
-                ],
-                "manufacturer": "August",
-                "model": "ASL-03 Smart Lock",
-                "name": "August ASL-03 Smart Lock",
-                "sw_version": null
-            },
-            {
-                "config_entries": [
-                    "accbb7b88116410cb129041d0d76b166"
-                ],
-                "connections": [],
-                "hub_device_id": null,
-                "id": "0d731f9a397445c4803b91fea662f89a",
+                "id": "1bd4429f83914d5ea45572ffe1bfd6f7",
                 "identifiers": [
                     [
                         "zwave",
@@ -215,6 +117,60 @@
                 "manufacturer": "August",
                 "model": "ASL-03 Smart Lock",
                 "name": "August ASL-03 Smart Lock",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "507b9def736b41518b8ea7330d7cfad9"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "9a69750eb4ca4c08a6565b251436ec84",
+                "identifiers": [
+                    [
+                        "zwave",
+                        35
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGRGBWM441 RGBW Controller",
+                "name": "FIBARO System FGRGBWM441 RGBW Controller",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "507b9def736b41518b8ea7330d7cfad9"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "78c0b4945e4a47c895d23db991c8863b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        43
+                    ]
+                ],
+                "manufacturer": "Zooz",
+                "model": "ZEN15 Power Switch",
+                "name": "Zooz ZEN15 Power Switch",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "507b9def736b41518b8ea7330d7cfad9"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "0362c8ddfa18401497304a9cccf17682",
+                "identifiers": [
+                    [
+                        "zwave",
+                        25
+                    ]
+                ],
+                "manufacturer": "Aeotec",
+                "model": "ZW100 MultiSensor 6",
+                "name": "Aeotec ZW100 MultiSensor 6",
                 "sw_version": null
             }
         ]

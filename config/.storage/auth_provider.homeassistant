@@ -1,10 +1,9 @@
 {
     "data": {
-        "salt": "404bcd1a02b35823d4c2912ef4a979c999463857fb095cdc700db12932f212b3",
         "users": [
             {
-                "password": "JDJiJDEyJG1tV2FJZFMwTHAyRGFjTU9Ra25pRk9HLzZlZUZ2ZkNEMmp5TFptSUhaUUtDNm1nNXlRdnhT",
-                "username": "christian"
+                "password": "JDJiJDEyJGdHNWcxY09aS0VQTk90SFFhNUdMMi4vd1JpOHZIREdSQTUxWGRBV0VnaWY4NHJaV3UwZ0p1",
+                "username": "Chris"
             }
         ]
     },

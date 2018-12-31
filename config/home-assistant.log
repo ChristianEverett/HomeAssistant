@@ -1,9 +1,61 @@
-2018-12-28 12:44:42 WARNING (MainThread) [homeassistant.components.http] legacy_api_password support has been enabled. If you don't require it, remove the 'api_password' from your http config.
-2018-12-28 12:44:51 WARNING (MainThread) [homeassistant.loader] You are using a custom component for customizer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
-2018-12-28 12:45:03 WARNING (MainThread) [homeassistant.components.light] Setup of platform flux_led is taking over 10 seconds.
-2018-12-28 12:45:47 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template Harmony Status, the state is unknown.
-2018-12-28 12:45:47 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template bedroom, the state is unknown.
-2018-12-28 12:45:47 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_current_temperature, the state is unknown.
-2018-12-28 12:45:47 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_setpoint, the state is unknown.
-2018-12-28 12:46:22 WARNING (MainThread) [homeassistant.components.zwave] Z-Wave node 28 not ready after 30 seconds, continuing anyway
-2018-12-28 12:49:25 ERROR (MainThread) [homeassistant.components.light.zha] light.sengled_1: Couldn't change brightness level: Message send failure: EmberStatus.DELIVERY_FAILED
+2018-12-30 15:39:20 WARNING (MainThread) [homeassistant.components.http] legacy_api_password support has been enabled. If you don't require it, remove the 'api_password' from your http config.
+2018-12-30 15:39:25 WARNING (MainThread) [homeassistant.loader] You are using a custom component for customizer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2018-12-30 15:39:39 WARNING (MainThread) [homeassistant.components.light] Setup of platform flux_led is taking over 10 seconds.
+2018-12-30 15:40:32 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template bedroom, the state is unknown.
+2018-12-30 15:40:32 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template Harmony Status, the state is unknown.
+2018-12-30 15:40:32 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_current_temperature, the state is unknown.
+2018-12-30 15:40:32 WARNING (MainThread) [homeassistant.components.sensor.template] Could not render template thermostat_setpoint, the state is unknown.
+2018-12-30 15:41:03 WARNING (MainThread) [homeassistant.components.zwave] Z-Wave node 34 not ready after 30 seconds, continuing anyway
+2018-12-30 15:41:03 WARNING (MainThread) [homeassistant.components.zwave] Z-Wave entity Unknown Node 34 Locked (node_id: 34) not ready after 30 seconds, continuing anyway
+2018-12-30 15:41:03 WARNING (MainThread) [homeassistant.components.zwave] Z-Wave node 28 not ready after 30 seconds, continuing anyway
+2018-12-30 16:39:29 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
+2018-12-30 17:41:30 ERROR (MainThread) [homeassistant.core] Error doing job: SSL handshake failed
+Traceback (most recent call last):
+  File "uvloop/handles/stream.pyx", line 609, in uvloop.loop.UVStream._on_eof
+  File "uvloop/sslproto.pyx", line 171, in uvloop.loop._SSLPipe.feed_ssldata
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:841)
+2018-12-30 17:41:30 ERROR (MainThread) [homeassistant.core] Error doing job: SSL error errno:1 reason: NO_SHARED_CIPHER
+Traceback (most recent call last):
+  File "uvloop/sslproto.pyx", line 504, in uvloop.loop.SSLProtocol.data_received
+  File "uvloop/sslproto.pyx", line 204, in uvloop.loop._SSLPipe.feed_ssldata
+  File "uvloop/sslproto.pyx", line 171, in uvloop.loop._SSLPipe.feed_ssldata
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:841)
+2018-12-30 18:39:12 ERROR (SyncWorker_3) [pyvesync.vesync] HTTPSConnectionPool(host='smartapi.vesync.com', port=443): Read timed out. (read timeout=5)
+2018-12-30 18:39:23 ERROR (MainThread) [homeassistant.core] Error doing job: SSL handshake failed
+Traceback (most recent call last):
+  File "uvloop/handles/stream.pyx", line 609, in uvloop.loop.UVStream._on_eof
+  File "uvloop/sslproto.pyx", line 171, in uvloop.loop._SSLPipe.feed_ssldata
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:841)
+2018-12-30 18:39:23 ERROR (MainThread) [homeassistant.core] Error doing job: SSL error errno:1 reason: UNKNOWN_PROTOCOL
+Traceback (most recent call last):
+  File "uvloop/sslproto.pyx", line 504, in uvloop.loop.SSLProtocol.data_received
+  File "uvloop/sslproto.pyx", line 204, in uvloop.loop._SSLPipe.feed_ssldata
+  File "uvloop/sslproto.pyx", line 171, in uvloop.loop._SSLPipe.feed_ssldata
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:841)
+2018-12-30 18:40:37 ERROR (MainThread) [homeassistant.core] Error doing job: SSL handshake failed
+Traceback (most recent call last):
+  File "uvloop/handles/stream.pyx", line 609, in uvloop.loop.UVStream._on_eof
+  File "uvloop/sslproto.pyx", line 171, in uvloop.loop._SSLPipe.feed_ssldata
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: HTTP_REQUEST] http request (_ssl.c:841)
+2018-12-30 18:40:37 ERROR (MainThread) [homeassistant.core] Error doing job: SSL error errno:1 reason: HTTP_REQUEST
+Traceback (most recent call last):
+  File "uvloop/sslproto.pyx", line 504, in uvloop.loop.SSLProtocol.data_received
+  File "uvloop/sslproto.pyx", line 204, in uvloop.loop._SSLPipe.feed_ssldata
+  File "uvloop/sslproto.pyx", line 171, in uvloop.loop._SSLPipe.feed_ssldata
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: HTTP_REQUEST] http request (_ssl.c:841)
+2018-12-30 18:51:33 ERROR (MainThread) [homeassistant.components.google_assistant.smart_home] Error handling message {'inputs': [{'intent': 'action.devices.DISCONNECT'}], 'requestId': '3370199040998364651'}: {'errorCode': 'protocolError'}
+2018-12-30 18:52:01 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 10.0.0.1
+2018-12-30 18:52:11 ERROR (MainThread) [frontend.js.latest.201812112] https://hasystem.duckdns.org/local/custom_ui/state-card-custom-ui.html:27:15926 Uncaught TypeError: Class extends value undefined is not a constructor or null
+2018-12-30 18:52:34 ERROR (MainThread) [frontend.js.latest.201812112] https://hasystem.duckdns.org/local/custom_ui/state-card-custom-ui.html:27:15926 Uncaught TypeError: Class extends value undefined is not a constructor or null

@@ -20,17 +20,17 @@ light.sengled_1:
     state_card_mode: break-slider-toggle
     stretch_slider: true
 
-light.dc4f22e35c77_10009:
+light.dc4f22e35c77_100024:
     friendly_name: Kitchen Left
     state_card_mode: break-slider-toggle
     stretch_slider: true
 
-light.dc4f22e3e07c_10008:
+light.dc4f22e3e07c_100017:
     friendly_name: Kitchen Right
     state_card_mode: break-slider-toggle
     stretch_slider: true
 
-light.dc4f22d3dbf9_100013:
+light.dc4f22d3dbf9_100021:
     friendly_name: TV Light
     state_card_mode: break-slider-toggle
     stretch_slider: true
@@ -43,6 +43,17 @@ lock.august:
    
 cover.garage_door_opener: 
     icon: mdi:car
+
+sensor.aeotec_temperature:
+    friendly_name: Temperature
+sensor.aeotec_luminance:
+    friendly_name: Lux
+sensor.aeotec_humidity:
+    friendly_name: Humidity
+sensor.aeotec_burglar:
+    friendly_name: Vibration
+binary_sensor.aeotec_motion:
+    friendly_name: Motion
 
 group.all_automations:
     hidden: false

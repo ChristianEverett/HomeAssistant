@@ -11,6 +11,7 @@ default_view:
         - group.kitchenLights
         - group.all_automations
         - group.all_scripts
+
 users:
     name: Users
     entities:
@@ -23,7 +24,7 @@ aeotecSensor:
         - sensor.aeotec_temperature
         - sensor.aeotec_luminance
         - sensor.aeotec_humidity
-        - sensor.aeotec_vibration
+        - sensor.aeotec_burglar
         - binary_sensor.aeotec_motion
         
 doors:
@@ -44,19 +45,19 @@ thermostat:
 kitchenLights:
     name: Kitchen Lights
     entities:
-        - light.dc4f22e35c77_10009
-        - light.dc4f22e3e07c_10008
+        - light.dc4f22e35c77_100024
+        - light.dc4f22e3e07c_100017
 
 switches:
     name: Switches
     entities:
-        - switch.d
+        - switch.monitor_backlight
         - light.desk
         - light.main
         - switch.zwaveswitch_1
-        - light.dc4f22e35c77_10009
-        - light.dc4f22e3e07c_10008
-        - light.dc4f22d3dbf9_100013
+        - light.dc4f22e35c77_100024
+        - light.dc4f22e3e07c_100017
+        - light.dc4f22d3dbf9_100021
         - light.sengled_1
 
 # harmony:

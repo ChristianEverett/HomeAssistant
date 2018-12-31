@@ -5,167 +5,167 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
+                "entity_id": "switch.monitors",
+                "name": null,
+                "platform": "vesync",
+                "unique_id": "f71b92b0-be5f-4533-9796-d3377fcbe810"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.computer",
+                "name": null,
+                "platform": "vesync",
+                "unique_id": "2d959259-6d71-4d3a-858b-31fa84f4bb10"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.monitor_backlight",
+                "name": null,
+                "platform": "vesync",
+                "unique_id": "be81a5e9-fc2f-4af7-a317-bc77af732adb"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.led",
+                "name": null,
+                "platform": "vesync",
+                "unique_id": "0140be3d-316f-445b-82ca-c9faf1bde726"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.04200320dc4f222e7d76_2",
+                "name": null,
+                "platform": "tuya",
+                "unique_id": "tuya.04200320dc4f222e7d76_2"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.04200320dc4f222e7d76_3",
+                "name": null,
+                "platform": "tuya",
+                "unique_id": "tuya.04200320dc4f222e7d76_3"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.04200320dc4f222e7d76_1",
+                "name": null,
+                "platform": "tuya",
+                "unique_id": "tuya.04200320dc4f222e7d76_1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.04200320dc4f222e7d76_5",
+                "name": null,
+                "platform": "tuya",
+                "unique_id": "tuya.04200320dc4f222e7d76_5"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.04200320dc4f222e7d76_4",
+                "name": null,
+                "platform": "tuya",
+                "unique_id": "tuya.04200320dc4f222e7d76_4"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zha.zha_sengled_e11n1ea_000359a2",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "sengled_e11n1ea_000359a2"
+            },
+            {
+                "config_entry_id": "5200aec829c842d48a95e324a710b7e0",
+                "device_id": "bf2043f39e3549228029c181027fbcc4",
+                "disabled_by": null,
+                "entity_id": "sensor.sengled_e11n1ea_000359a2_1_1794",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:03:59:a2-1-1794"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.60427044840d8ea0162f",
+                "name": null,
+                "platform": "tuya",
+                "unique_id": "tuya.60427044840d8ea0162f"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.60427044840d8ea015c5",
+                "name": null,
+                "platform": "tuya",
+                "unique_id": "tuya.60427044840d8ea015c5"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
                 "entity_id": "zwave.sigma_designs_uzb_zwave_usb_adapter",
                 "name": null,
                 "platform": "zwave",
                 "unique_id": "node-1"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
                 "disabled_by": null,
-                "entity_id": "zwave.aeotec_zw100_multisensor_6",
+                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_2",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "node-25"
+                "unique_id": "30-216172782621917185"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
                 "disabled_by": null,
-                "entity_id": "sensor.aeotec_zw100_multisensor_6_ultraviolet",
+                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_3",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "25-72057594462355890"
+                "unique_id": "30-288230376659845121"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
                 "disabled_by": null,
-                "entity_id": "sensor.aeotec_zw100_multisensor_6_alarm_type",
+                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_4",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "25-72057594463404033"
+                "unique_id": "30-360287970697773057"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
                 "disabled_by": null,
-                "entity_id": "sensor.aeotec_zw100_multisensor_6_alarm_level",
+                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_5",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "25-72057594463404049"
+                "unique_id": "30-432345564735700993"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
-                "disabled_by": null,
-                "entity_id": "sensor.aeotec_zw100_multisensor_6_sourcenodeid",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "25-72057594463404065"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.linear_gctbz48_battery_powered_zwave_thermostat",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "node-26"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.ge_14294_inwall_smart_dimmer",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "node-27"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "0545d787cd34428aad53b131405bf906",
-                "disabled_by": null,
-                "entity_id": "light.ge_14294_inwall_smart_dimmer_level",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "27-72057594495729665"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.hank_hkzwdws01_doorwindow_sensor",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "node-28"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "af592b0c1b344cff8851487e6c2021f6",
-                "disabled_by": null,
-                "entity_id": "binary_sensor.hank_hkzwdws01_doorwindow_sensor_sensor",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "28-72057594512670720"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "af592b0c1b344cff8851487e6c2021f6",
-                "disabled_by": null,
-                "entity_id": "sensor.hank_hkzwdws01_doorwindow_sensor_alarm_type",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "28-72057594513735681"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "af592b0c1b344cff8851487e6c2021f6",
-                "disabled_by": null,
-                "entity_id": "sensor.hank_hkzwdws01_doorwindow_sensor_alarm_level",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "28-72057594513735697"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "af592b0c1b344cff8851487e6c2021f6",
-                "disabled_by": null,
-                "entity_id": "sensor.hank_hkzwdws01_doorwindow_sensor_sourcenodeid",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "28-72057594513735713"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "af592b0c1b344cff8851487e6c2021f6",
-                "disabled_by": null,
-                "entity_id": "sensor.hank_hkzwdws01_doorwindow_sensor_access_control",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "28-72057594513735825"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "af592b0c1b344cff8851487e6c2021f6",
-                "disabled_by": null,
-                "entity_id": "sensor.hank_hkzwdws01_doorwindow_sensor_burglar",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "28-72057594513735841"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.zooz_zen15_power_switch",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "node-29"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "90e3db5b4cb549c8b19446b7274a60cb",
-                "disabled_by": null,
-                "entity_id": "sensor.zooz_zen15_power_switch_energy",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "29-72057594529480706"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "90e3db5b4cb549c8b19446b7274a60cb",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9700785c31234940a55417596591f59d",
                 "disabled_by": null,
                 "entity_id": "sensor.zooz_zen15_power_switch_previous_reading",
                 "name": null,
@@ -173,8 +173,8 @@
                 "unique_id": "29-72057594529480722"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "90e3db5b4cb549c8b19446b7274a60cb",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9700785c31234940a55417596591f59d",
                 "disabled_by": null,
                 "entity_id": "sensor.zooz_zen15_power_switch_power",
                 "name": null,
@@ -182,8 +182,8 @@
                 "unique_id": "29-72057594529480834"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "90e3db5b4cb549c8b19446b7274a60cb",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9700785c31234940a55417596591f59d",
                 "disabled_by": null,
                 "entity_id": "sensor.zooz_zen15_power_switch_voltage",
                 "name": null,
@@ -191,13 +191,67 @@
                 "unique_id": "29-72057594529480962"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "90e3db5b4cb549c8b19446b7274a60cb",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9700785c31234940a55417596591f59d",
                 "disabled_by": null,
                 "entity_id": "sensor.zooz_zen15_power_switch_current",
                 "name": null,
                 "platform": "zwave",
                 "unique_id": "29-72057594529481026"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
+                "disabled_by": null,
+                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594546258050"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
+                "disabled_by": null,
+                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594546258432"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "1bd4429f83914d5ea45572ffe1bfd6f7",
+                "disabled_by": null,
+                "entity_id": "sensor.august_asl03_smart_lock_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "42-72057594748616737"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
+                "disabled_by": null,
+                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594546241602"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9a69750eb4ca4c08a6565b251436ec84",
+                "disabled_by": null,
+                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "35-72057594630127682"
+            },
+            {
+                "config_entry_id": "5200aec829c842d48a95e324a710b7e0",
+                "device_id": "bf2043f39e3549228029c181027fbcc4",
+                "disabled_by": null,
+                "entity_id": "light.sengled_e11n1ea_000359a2_1",
+                "name": null,
+                "platform": "zha",
+                "unique_id": "b0:ce:18:14:00:03:59:a2-1"
             },
             {
                 "config_entry_id": null,
@@ -209,85 +263,13 @@
                 "unique_id": "node-30"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_2",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "30-144115188583989249"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_3",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "30-216172782621917185"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_4",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "30-288230376659845121"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_5",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "30-360287970697773057"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_6",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "30-432345564735700993"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
-                "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "30-72057594546241602"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
                 "disabled_by": null,
                 "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_energy",
                 "name": null,
                 "platform": "zwave",
                 "unique_id": "30-72057594546257922"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
-                "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_2",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "30-72057594546258050"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
-                "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_exporting",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "30-72057594546258432"
             },
             {
                 "config_entry_id": null,
@@ -296,229 +278,40 @@
                 "entity_id": "zwave.fibaro_system_fgrgbwm441_rgbw_controller_2",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "node-31"
+                "unique_id": "node-35"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
+                "config_entry_id": null,
+                "device_id": null,
                 "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_7",
+                "entity_id": "zwave.linear_gctbz48_battery_powered_zwave_thermostat",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "31-72057594562838529"
+                "unique_id": "node-40"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_8",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "31-144115188600766465"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_9",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "31-216172782638694401"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_10",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "31-288230376676622337"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_11",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "31-360287970714550273"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_12",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "31-432345564752478209"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
-                "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_3",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "31-72057594563018818"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9a69750eb4ca4c08a6565b251436ec84",
                 "disabled_by": null,
                 "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_energy_2",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "31-72057594563035138"
+                "unique_id": "35-72057594630144002"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9a69750eb4ca4c08a6565b251436ec84",
                 "disabled_by": null,
                 "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_4",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "31-72057594563035266"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6c8606f061e24a68af6bcf0cc4b39792",
-                "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_exporting_2",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "31-72057594563035648"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.lock_id033f_lock_type0001_id0001",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "node-34"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6aa5e7ac7e7248f68851877dbed8976c",
-                "disabled_by": null,
-                "entity_id": "sensor.lock_id033f_lock_type0001_id0001_alarm_type",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "34-72057594614398977"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6aa5e7ac7e7248f68851877dbed8976c",
-                "disabled_by": null,
-                "entity_id": "sensor.lock_id033f_lock_type0001_id0001_alarm_level",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "34-72057594614398993"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6aa5e7ac7e7248f68851877dbed8976c",
-                "disabled_by": null,
-                "entity_id": "sensor.lock_id033f_lock_type0001_id0001_sourcenodeid",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "34-72057594614399009"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.b",
-                "name": null,
-                "platform": "vesync",
-                "unique_id": "2d959259-6d71-4d3a-858b-31fa84f4bb10"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.d",
-                "name": null,
-                "platform": "vesync",
-                "unique_id": "be81a5e9-fc2f-4af7-a317-bc77af732adb"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.c",
-                "name": null,
-                "platform": "vesync",
-                "unique_id": "0140be3d-316f-445b-82ca-c9faf1bde726"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "switch.a",
-                "name": null,
-                "platform": "vesync",
-                "unique_id": "f71b92b0-be5f-4533-9796-d3377fcbe810"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_13",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "35-144115188667875329"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_14",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "35-216172782705803265"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_15",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "35-288230376743731201"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_16",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "35-360287970781659137"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
-                "disabled_by": null,
-                "entity_id": "light.fibaro_system_fgrgbwm441_rgbw_controller_level_17",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "35-432345564819587073"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
-                "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_5",
                 "name": null,
                 "platform": "zwave",
                 "unique_id": "35-72057594630144130"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9a69750eb4ca4c08a6565b251436ec84",
                 "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_exporting_3",
+                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_exporting_2",
                 "name": null,
                 "platform": "zwave",
                 "unique_id": "35-72057594630144512"
@@ -527,140 +320,77 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "zwave.fibaro_system_fgrgbwm441_rgbw_controller_3",
+                "entity_id": "zwave.august_asl03_smart_lock",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "node-35"
+                "unique_id": "node-42"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "1bd4429f83914d5ea45572ffe1bfd6f7",
                 "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_energy_3",
+                "entity_id": "sensor.august_asl03_smart_lock_alarm_type",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "35-72057594630144002"
+                "unique_id": "42-72057594748616705"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "1bd4429f83914d5ea45572ffe1bfd6f7",
                 "disabled_by": null,
-                "entity_id": "sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_6",
+                "entity_id": "sensor.august_asl03_smart_lock_alarm_level",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "35-72057594630127682"
+                "unique_id": "42-72057594748616721"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "78c0b4945e4a47c895d23db991c8863b",
                 "disabled_by": null,
-                "entity_id": "sensor.aeotec_luminance",
-                "name": "Lux",
-                "platform": "zwave",
-                "unique_id": "25-72057594462355506"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
-                "disabled_by": null,
-                "entity_id": "sensor.aeotec_humidity",
-                "name": "Humidity",
-                "platform": "zwave",
-                "unique_id": "25-72057594462355538"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
-                "disabled_by": null,
-                "entity_id": "sensor.aeotec_temperature",
-                "name": "Temperature",
-                "platform": "zwave",
-                "unique_id": "25-72057594462355474"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
-                "disabled_by": null,
-                "entity_id": "binary_sensor.aeotec_motion",
-                "name": "Motion",
-                "platform": "zwave",
-                "unique_id": "25-72057594462339072"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "90e3db5b4cb549c8b19446b7274a60cb",
-                "disabled_by": null,
-                "entity_id": "switch.zwaveswitch_1",
+                "entity_id": "sensor.zooz_zen15_power_switch_power_2",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "29-72057594529267712"
+                "unique_id": "43-72057594764361858"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "d6c4d8347be146b2a2089af654e0b9f1",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "78c0b4945e4a47c895d23db991c8863b",
                 "disabled_by": null,
-                "entity_id": "light.main",
+                "entity_id": "sensor.zooz_zen15_power_switch_voltage_2",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "30-72057594546061313"
+                "unique_id": "43-72057594764361986"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "3ccd44c29c6048b2b134ce571ee40968",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "78c0b4945e4a47c895d23db991c8863b",
                 "disabled_by": null,
-                "entity_id": "light.desk",
+                "entity_id": "sensor.zooz_zen15_power_switch_current_2",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "35-72057594629947393"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "ce6c51e93e31440785ed8b06cd8eef23",
-                "disabled_by": null,
-                "entity_id": "sensor.aeotec_vibration",
-                "name": "Vibration",
-                "platform": "zwave",
-                "unique_id": "25-72057594463404193"
+                "unique_id": "43-72057594764362050"
             },
             {
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "media_player.bedroom",
-                "name": null,
-                "platform": "roku",
-                "unique_id": "YN00XX728448"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.linear_gctbz48_battery_powered_zwave_thermostat_2",
+                "entity_id": "zwave.zooz_zen15_power_switch",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "node-38"
+                "unique_id": "node-43"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "131b848828bb407484043c27605c7cbd",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "78c0b4945e4a47c895d23db991c8863b",
                 "disabled_by": null,
-                "entity_id": "sensor.linear_gctbz48_battery_powered_zwave_thermostat_temperature",
+                "entity_id": "sensor.zooz_zen15_power_switch_energy",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "38-72057594680459282"
+                "unique_id": "43-72057594764361730"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.linear_gctbz48_battery_powered_zwave_thermostat_3",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "node-40"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "543cb175d2444c7a859bb75079576c44",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "95b9fe69642847f4b45d887c16b43475",
                 "disabled_by": null,
                 "entity_id": "climate.thermostat_heating",
                 "name": null,
@@ -668,8 +398,8 @@
                 "unique_id": "40-72057594714308626"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "543cb175d2444c7a859bb75079576c44",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "95b9fe69642847f4b45d887c16b43475",
                 "disabled_by": null,
                 "entity_id": "climate.thermostat_cooling",
                 "name": null,
@@ -677,8 +407,44 @@
                 "unique_id": "40-72057594714308642"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "543cb175d2444c7a859bb75079576c44",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "78c0b4945e4a47c895d23db991c8863b",
+                "disabled_by": null,
+                "entity_id": "sensor.zooz_zen15_power_switch_previous_reading_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "43-72057594764361746"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.aeotec_zw100_multisensor_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-25"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_ultraviolet",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594462355890"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404065"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "95b9fe69642847f4b45d887c16b43475",
                 "disabled_by": null,
                 "entity_id": "sensor.thermostat_temperature",
                 "name": null,
@@ -686,134 +452,17 @@
                 "unique_id": "40-72057594714013714"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "78c0b4945e4a47c895d23db991c8863b",
                 "disabled_by": null,
-                "entity_id": "zwave.august_asl03_smart_lock",
+                "entity_id": "switch.zwaveswitch_1",
                 "name": null,
                 "platform": "zwave",
-                "unique_id": "node-41"
+                "unique_id": "43-72057594764148736"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "4c92f977d5a84f9a9a0660fb4eb5415a",
-                "disabled_by": null,
-                "entity_id": "sensor.august_asl03_smart_lock_alarm_type",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "41-72057594731839489"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "4c92f977d5a84f9a9a0660fb4eb5415a",
-                "disabled_by": null,
-                "entity_id": "sensor.august_asl03_smart_lock_alarm_level",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "41-72057594731839505"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "lock.august_asl03_smart_lock_locked",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "41-72057594731593728"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "4c92f977d5a84f9a9a0660fb4eb5415a",
-                "disabled_by": null,
-                "entity_id": "sensor.august_asl03_smart_lock_sourcenodeid",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "41-72057594731839521"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "4c92f977d5a84f9a9a0660fb4eb5415a",
-                "disabled_by": null,
-                "entity_id": "sensor.august_asl03_smart_lock_access_control",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "41-72057594731839633"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11g13_031e1173",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11g13_031e1173"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11g13_031e1173_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:03:1e:11:73-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:03:1e:11:73-1"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "0d731f9a397445c4803b91fea662f89a",
-                "disabled_by": null,
-                "entity_id": "sensor.august_asl03_smart_lock_alarm_type_2",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "42-72057594748616705"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "0d731f9a397445c4803b91fea662f89a",
-                "disabled_by": null,
-                "entity_id": "sensor.august_asl03_smart_lock_alarm_level_2",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "42-72057594748616721"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zwave.august_asl03_smart_lock_2",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "node-42"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "0d731f9a397445c4803b91fea662f89a",
-                "disabled_by": null,
-                "entity_id": "sensor.august_asl03_smart_lock_sourcenodeid_2",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "42-72057594748616737"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "lock.august_old",
-                "name": "",
-                "platform": "zwave",
-                "unique_id": "34-72057594614153216"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "1bd4429f83914d5ea45572ffe1bfd6f7",
                 "disabled_by": null,
                 "entity_id": "lock.august",
                 "name": null,
@@ -821,17 +470,8 @@
                 "unique_id": "42-72057594748370944"
             },
             {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "6aa5e7ac7e7248f68851877dbed8976c",
-                "disabled_by": null,
-                "entity_id": "sensor.august_lock_status_old",
-                "name": null,
-                "platform": "zwave",
-                "unique_id": "34-72057594614399121"
-            },
-            {
-                "config_entry_id": "accbb7b88116410cb129041d0d76b166",
-                "device_id": "0d731f9a397445c4803b91fea662f89a",
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "1bd4429f83914d5ea45572ffe1bfd6f7",
                 "disabled_by": null,
                 "entity_id": "sensor.august_lock_status",
                 "name": null,
@@ -839,166 +479,103 @@
                 "unique_id": "42-72057594748616849"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
                 "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0003bff9",
+                "entity_id": "sensor.aeotec_luminance",
                 "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0003bff9"
+                "platform": "zwave",
+                "unique_id": "25-72057594462355506"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404193"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.aeotec_motion",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594462339072"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404033"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404049"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594462355474"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "0362c8ddfa18401497304a9cccf17682",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_humidity",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594462355538"
+            },
+            {
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "9a69750eb4ca4c08a6565b251436ec84",
+                "disabled_by": null,
+                "entity_id": "light.desk",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "35-72057594629947393"
             },
             {
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0003bff9_1_1794",
+                "entity_id": "zwave.unknown_node_34",
                 "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:bf:f9-1-1794"
+                "platform": "zwave",
+                "unique_id": "node-34"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
                 "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0003bff9_1",
+                "entity_id": "light.main_old",
                 "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:bf:f9-1"
+                "platform": "zwave",
+                "unique_id": "30-144115188583989249"
             },
             {
-                "config_entry_id": null,
-                "device_id": null,
+                "config_entry_id": "507b9def736b41518b8ea7330d7cfad9",
+                "device_id": "109d6198d52b481fafdf770de078a396",
                 "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_00037429",
+                "entity_id": "light.main",
                 "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_00037429"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_00037429_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:74:29-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_00037429_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:74:29-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0004e66d",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0004e66d"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0004e0e5",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0004e0e5"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_0004dd70",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_0004dd70"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0004e66d_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:e6:6d-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0004e0e5_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:e0:e5-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_0004dd70_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:dd:70-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0004e0e5_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:e0:e5-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0004e66d_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:e6:6d-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_0004dd70_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:04:dd:70-1-1794"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "zha.zha_sengled_e11n1ea_00031820",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "sengled_e11n1ea_00031820"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "light.sengled_e11n1ea_00031820_1",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:18:20-1"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.sengled_e11n1ea_00031820_1_1794",
-                "name": null,
-                "platform": "zha",
-                "unique_id": "b0:ce:18:14:00:03:18:20-1-1794"
+                "platform": "zwave",
+                "unique_id": "30-72057594546061313"
             }
         ]
     },

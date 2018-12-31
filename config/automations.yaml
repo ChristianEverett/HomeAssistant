@@ -15,11 +15,11 @@
   trigger:
      - platform: sun
        event: sunset
-       offset: "+01:00:00"
+       offset: "+01:30:00"
   action:
     - service: light.turn_on
       data:
-        entity_id: light.dc4f22d3dbf9_100013
+        entity_id: light.dc4f22d3dbf9_100021
         brightness_pct: 5
 
 - alias: Night Mode

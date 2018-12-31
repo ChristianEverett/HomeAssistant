@@ -2,7 +2,7 @@ evening_mode:
   sequence:
     - service: switch.turn_on
       entity_id: 
-        - switch.d
+        - switch.monitor_backlight
     - service: light.turn_on
       entity_id: 
         - light.desk
@@ -18,11 +18,11 @@ night_mode:
   sequence:
     - service: switch.turn_off
       entity_id: 
-        - switch.d
+        - switch.monitor_backlight
     - service: light.turn_off
       entity_id: 
-        - light.dc4f22e35c77_10009
-        - light.dc4f22e3e07c_10008
+        - light.dc4f22e35c77_100024
+        - light.dc4f22e3e07c_100017
         - light.desk
         - light.main
 
@@ -30,8 +30,8 @@ day_mode:
   sequence:
     - service: light.turn_on
       entity_id: 
-        - light.dc4f22e35c77_10009
-        - light.dc4f22e3e07c_10008
+        - light.dc4f22e35c77_100024
+        - light.dc4f22e3e07c_100017
       
 leave:
   sequence:

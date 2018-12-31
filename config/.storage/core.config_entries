@@ -3,23 +3,47 @@
         "entries": [
             {
                 "connection_class": "local_push",
+                "data": {},
+                "domain": "mqtt",
+                "entry_id": "3526987137e3429da7053cc9f7e6c450",
+                "source": "import",
+                "title": "configuration.yaml",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
                 "data": {
                     "network_key": "0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A, 0xAA, 0x0C, 0x0D, 0x0E, 0x0F, 0x10",
                     "usb_path": "/dev/ttyUSB0"
                 },
                 "domain": "zwave",
-                "entry_id": "accbb7b88116410cb129041d0d76b166",
+                "entry_id": "507b9def736b41518b8ea7330d7cfad9",
                 "source": "import",
                 "title": "Z-Wave (import from configuration.yaml)",
                 "version": 1
             },
             {
                 "connection_class": "local_push",
-                "data": {},
-                "domain": "mqtt",
-                "entry_id": "31194170d2e241279421c18872201daf",
+                "data": {
+                    "radio_type": "ezsp",
+                    "usb_path": "/dev/ttyUSB1"
+                },
+                "domain": "zha",
+                "entry_id": "5200aec829c842d48a95e324a710b7e0",
                 "source": "import",
-                "title": "configuration.yaml",
+                "title": "/dev/ttyUSB1",
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "secret": "43fa9623ca915f55f2cb392b84acfa91",
+                    "webhook_id": "f623afae8d2b9c9b6971155febb64b1e0bf725f2b7e5de8772390ce564a12f3c"
+                },
+                "domain": "owntracks",
+                "entry_id": "9b660d867fa44b6ca6474a47c4830813",
+                "source": "import",
+                "title": "OwnTracks",
                 "version": 1
             }
         ]
